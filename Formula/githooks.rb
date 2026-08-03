@@ -7,26 +7,26 @@
 class Githooks < Formula
   desc "Git hooks that judge what you are committing, not what is on disk"
   homepage "https://github.com/fredericrous/githooks"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fredericrous/githooks/releases/download/v1.0.0/githooks-1.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f0f7d0cc7710bce856e0c4fd5da2b89f67ec28bedd63a281461b3ada58bbea91"
+      url "https://github.com/fredericrous/githooks/releases/download/v1.0.1/githooks-1.0.1-aarch64-apple-darwin.tar.gz"
+      sha256 "ea2e252c4e18593a6b04236c8f00080890b37414c8a261721504b5b6cc751096"
     else
-      url "https://github.com/fredericrous/githooks/releases/download/v1.0.0/githooks-1.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "06cd666f329b8c4af077bc4f70ac2af0959b75b2def0132f06c5a6dd4b9e25a3"
+      url "https://github.com/fredericrous/githooks/releases/download/v1.0.1/githooks-1.0.1-x86_64-apple-darwin.tar.gz"
+      sha256 "6b3edc00ab98f4589491112cc10341f42da6dceaac9f3a783910a4fd57d204ff"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/fredericrous/githooks/releases/download/v1.0.0/githooks-1.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ad04e05c1edecd08a1e3bcf717283f963d181f6a0f3bed295ccb2974760ff501"
+      url "https://github.com/fredericrous/githooks/releases/download/v1.0.1/githooks-1.0.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "00f2c037e9fd7ff2ee8b06c7012c482109e3f7b93cee14934fa42bc781e1073d"
     else
-      url "https://github.com/fredericrous/githooks/releases/download/v1.0.0/githooks-1.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "67477020651efb2826658b3a82fc10634a413d95c9475c5e44eddb0d39c2ef4a"
+      url "https://github.com/fredericrous/githooks/releases/download/v1.0.1/githooks-1.0.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "33b80cce95a2a85216db95847e7ed6341c8218bb48366e95e9812fded1e5b4b2"
     end
   end
 
