@@ -7,26 +7,26 @@
 class Amont < Formula
   desc "Git hooks that catch the bad commit before it exists — en amont"
   homepage "https://github.com/fredericrous/amont"
-  version "1.6.7"
+  version "1.6.8"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fredericrous/amont/releases/download/v1.6.7/amont-1.6.7-aarch64-apple-darwin.tar.gz"
-      sha256 "a499ecf0e00cf904c52256b0fc66446dc77e8deae1d121a8eeed8d8518398d1a"
+      url "https://github.com/fredericrous/amont/releases/download/v1.6.8/amont-1.6.8-aarch64-apple-darwin.tar.gz"
+      sha256 "a588b3e0acb414a7a22862c6d374b68e2788bc6543f570472961072591f90776"
     else
-      url "https://github.com/fredericrous/amont/releases/download/v1.6.7/amont-1.6.7-x86_64-apple-darwin.tar.gz"
-      sha256 "2c4981e4b00c04387bc2963df7843a0fcbadf18910a198ff96d83f7129f44e83"
+      url "https://github.com/fredericrous/amont/releases/download/v1.6.8/amont-1.6.8-x86_64-apple-darwin.tar.gz"
+      sha256 "1e76cc50faaca62aaf336936a01b0b240ecf8af062dfc24c4a65db970330ddc5"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/fredericrous/amont/releases/download/v1.6.7/amont-1.6.7-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "21bd8cd5e74e6220ae056b87eaffb12c7529ea1432f65fe07c47bba40849fe07"
+      url "https://github.com/fredericrous/amont/releases/download/v1.6.8/amont-1.6.8-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "696ce51bbc3914238e685b2a352251c11d1edb4d6a6f9841e20ca83af63e0865"
     else
-      url "https://github.com/fredericrous/amont/releases/download/v1.6.7/amont-1.6.7-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8efefec3091f24100030710b3fa52503480e4002367793bd2a62f18c2b634ac4"
+      url "https://github.com/fredericrous/amont/releases/download/v1.6.8/amont-1.6.8-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4d61af5b9a66e3d6e7c5075f4cd72e0a1d9113434443b261efd889893702401c"
     end
   end
 
