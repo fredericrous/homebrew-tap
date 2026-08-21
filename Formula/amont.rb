@@ -33,6 +33,11 @@ class Amont < Formula
   def install
     bin.install "amont"
     bin.install "amont-fleet"
+    # The Claude Code guard. It is in every release archive and in both
+    # shell installers; leaving it out here made brew the one install path
+    # that produced a partial toolchain, so `amont-agent` had to be dropped
+    # into ~/.local/bin by hand and then drifted a version behind.
+    bin.install "amont-agent"
     # The five shims, for anyone pointing `init.templateDir` at a checkout
     # instead of installing per repository.
     pkgshare.install "templates"
@@ -48,6 +53,12 @@ class Amont < Formula
 
       Across many repositories at once:
         amont-fleet install --root ~/Developer
+
+      And the Claude Code guard, which reads a shell command before the
+      agent runs it (separate from the git hooks above):
+
+        amont-agent install --write        # adds the hook to settings.json
+        amont-agent doctor                 # is it actually armed?
     EOS
   end
 
@@ -57,5 +68,9 @@ class Amont < Formula
     # And the binary can answer a real question in a real repository.
     system "git", "init", "-q", "--template=", testpath/"repo"
     assert_match "pre-commit", shell_output("cd #{testpath}/repo && #{bin}/amont list")
+    # All three binaries are installed, and the guard can reach a verdict —
+    # `rules` is the cheapest question that proves it loaded its rule table.
+    assert_match "pipe-to-tail", shell_output("#{bin}/amont-agent rules")
+    assert_match version.to_s, shell_output("#{bin}/amont-fleet --version")
   end
 end
