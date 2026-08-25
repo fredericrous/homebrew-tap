@@ -45,7 +45,7 @@ class Amont < Formula
 
   def caveats
     <<~EOS
-      Nothing is enabled yet, on purpose. To turn the hooks on:
+      First install: nothing is enabled yet, on purpose. To turn the hooks on:
 
         cd <your-repo> && amont install     # this repository only
         amont list                          # what would run here
@@ -59,6 +59,18 @@ class Amont < Formula
 
         amont-agent install --write        # adds the hook to settings.json
         amont-agent doctor                 # is it actually armed?
+
+      After an upgrade: the hooks already run this binary — they are baked to
+      #{HOMEBREW_PREFIX}/bin/amont, so nothing per repository needs redoing
+      for the checks themselves. Two things do not update on their own: a
+      repository's hook shims when a release changes them, and the generated
+      block in AGENTS.md/CLAUDE.md, which an agent reads and believes. Both
+      show as drift, and one command sees all of it:
+
+        amont-fleet fix --root ~/Developer              # dry run: what drifted
+        amont-fleet fix --root ~/Developer --apply --agents-md
+
+      or, in one repository: amont install && amont agents-md
     EOS
   end
 
