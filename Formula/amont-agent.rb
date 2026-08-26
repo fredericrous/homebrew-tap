@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "0.0.0"
+  version "2.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v0.0.0/amont-agent-0.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.0/amont-agent-2.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "bd38a80d6114fa10d7a20cf636cd22a3a677130ef5dce719406e2ab4ee40569f"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v0.0.0/amont-agent-0.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.0/amont-agent-2.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a405810dc67dc19785c65f85ed8c20650903be094d38ed136daca28f381b3c5e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v0.0.0/amont-agent-0.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.0/amont-agent-2.0.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0b359609557ae399bafea99a0d90d14b92ba38cff2631bb4d84f4d1222caa8ca"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v0.0.0/amont-agent-0.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.0/amont-agent-2.0.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "73622aee3bcce4e3be87441a121bd9cff6f74c7483d6b1a022cacf537a23a758"
     end
   end
 
