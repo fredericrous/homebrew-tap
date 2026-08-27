@@ -33,11 +33,14 @@ class Amont < Formula
   def install
     bin.install "amont"
     bin.install "amont-fleet"
-    # The Claude Code guard. It is in every release archive and in both
-    # shell installers; leaving it out here made brew the one install path
-    # that produced a partial toolchain, so `amont-agent` had to be dropped
-    # into ~/.local/bin by hand and then drifted a version behind.
-    bin.install "amont-agent"
+    # NO amont-agent. It became its own project in amont 1.20.0
+    # (github.com/fredericrous/amont-agent) and is no longer in this
+    # archive. This line outlived the binary by three releases and broke
+    # every `brew install` and `brew upgrade` in between — bin.install on a
+    # file that is not there aborts the whole formula, so the failure was
+    # total rather than partial. Nothing caught it because the release
+    # verified the tarball and the formula's checksums, and never once ran
+    # brew.
     # The five shims, for anyone pointing `init.templateDir` at a checkout
     # instead of installing per repository.
     pkgshare.install "templates"
@@ -54,11 +57,8 @@ class Amont < Formula
       Across many repositories at once:
         amont-fleet install --root ~/Developer
 
-      And the Claude Code guard, which reads a shell command before the
-      agent runs it (separate from the git hooks above):
-
-        amont-agent install --write        # adds the hook to settings.json
-        amont-agent doctor                 # is it actually armed?
+      The Claude Code guard that used to ship here is its own project now:
+        brew install fredericrous/tap/amont-agent
 
       After an upgrade: the hooks already run this binary — they are baked to
       #{HOMEBREW_PREFIX}/bin/amont, so nothing per repository needs redoing
@@ -80,9 +80,10 @@ class Amont < Formula
     # And the binary can answer a real question in a real repository.
     system "git", "init", "-q", "--template=", testpath/"repo"
     assert_match "pre-commit", shell_output("cd #{testpath}/repo && #{bin}/amont list")
-    # All three binaries are installed, and the guard can reach a verdict —
-    # `rules` is the cheapest question that proves it loaded its rule table.
-    assert_match "pipe-to-tail", shell_output("#{bin}/amont-agent rules")
+    # BOTH binaries this formula installs — amont-agent moved to its own
+    # project in 1.20.0 and testing it here would fail for the same reason
+    # installing it did. `brew test` is the only thing in this repository
+    # that runs the installed artifact, so what it names is what is checked.
     assert_match version.to_s, shell_output("#{bin}/amont-fleet --version")
   end
 end
