@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.0.1"
+  version "2.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.1/amont-agent-2.0.1-aarch64-apple-darwin.tar.gz"
-      sha256 "c54ef007852064bd5f956df465ed38bfd4bc34e95fe3c6f2c087e3516b34ae76"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.2/amont-agent-2.0.2-aarch64-apple-darwin.tar.gz"
+      sha256 "2ac39baf703e7c7848c2b8d320a48523f39200cf675c3a5ac276f37f3fe85808"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.1/amont-agent-2.0.1-x86_64-apple-darwin.tar.gz"
-      sha256 "24a80d29c90798cd675542f12a58d89598b49f6f6f6a3c64be241673f39f7d53"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.2/amont-agent-2.0.2-x86_64-apple-darwin.tar.gz"
+      sha256 "da0601adc601c58effb6f1ab15fedc785bf526d0a4038de36ed8710feccb0a59"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.1/amont-agent-2.0.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f5448d040b24a102694279f2aa7bc5264ef6fe303247119bac2af98d47fcd190"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.2/amont-agent-2.0.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b466725c310190164bab9e3759cc95c99bc72a0b3aa6c2d70032b409f98c5996"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.1/amont-agent-2.0.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5a871ee82cee65ee496b0bcc8e17668b4867899fa82dd43eb2c9c345cf0e7069"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.2/amont-agent-2.0.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4fc4c8aa931948ce6f52f6a3e1dc9e8b31e00cc5b2d18604870370aca7aa13c9"
     end
   end
 
