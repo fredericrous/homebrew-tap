@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.0.2"
+  version "2.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.2/amont-agent-2.0.2-aarch64-apple-darwin.tar.gz"
-      sha256 "2ac39baf703e7c7848c2b8d320a48523f39200cf675c3a5ac276f37f3fe85808"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.0/amont-agent-2.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5b64edfe537bb8e35e9662e10df986346b03ff26ccd234ffe0d0037d494630af"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.2/amont-agent-2.0.2-x86_64-apple-darwin.tar.gz"
-      sha256 "da0601adc601c58effb6f1ab15fedc785bf526d0a4038de36ed8710feccb0a59"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.0/amont-agent-2.1.0-x86_64-apple-darwin.tar.gz"
+      sha256 "00e42cfc1f68c1a1fd698026e32062ab829f7e54f84fca0fa5a8ce5c8504c3aa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.2/amont-agent-2.0.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b466725c310190164bab9e3759cc95c99bc72a0b3aa6c2d70032b409f98c5996"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.0/amont-agent-2.1.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "68c3d455cc93938774ec22dc72063796d28d8d4d6825ad1ac39c6d2bc50fffa8"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.0.2/amont-agent-2.0.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4fc4c8aa931948ce6f52f6a3e1dc9e8b31e00cc5b2d18604870370aca7aa13c9"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.0/amont-agent-2.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "95fd16e7adc580dbc2961937b6a8f4390d1e75328cf6275704350e0128039a38"
     end
   end
 
