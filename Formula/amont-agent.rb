@@ -49,8 +49,9 @@ class AmontAgent < Formula
         amont-agent install --write  # merges it into ~/.claude/settings.json
         amont-agent doctor           # is it installed, runnable, and firing?
 
-      Every rule but pipe-to-tail ships as `observe`, so nothing is refused
-      until you have seen what it would have caught:  amont-agent status
+      Only pipe-to-tail refuses a command; every other rule advises or
+      observes, and its stance and measured rate are one line away:
+        amont-agent status
     EOS
   end
 
