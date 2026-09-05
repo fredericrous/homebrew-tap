@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.1.1"
+  version "2.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.1/amont-agent-2.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "78bbade98c7fe9b69fc9bd8ad0712fdf45e6ca190017e17b5dc2c65ebd38ae42"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.2.0/amont-agent-2.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "6f3989276759dbce0c2b6fff8e053c2d094ee40061d21ac985da909bae5fb973"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.1/amont-agent-2.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "8a0a4b30a6090c1d7550e21e537284f653f66322aaea5ce0fc63e373b36f5358"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.2.0/amont-agent-2.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "58b1766800d2be93e5081ec8d29cc356302f50e514b8c4cd61a7d081cf14d93e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.1/amont-agent-2.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "46533be6004c7f3cf1a8a9cc15ec076cebd667480e3f5e6eba15c6af825603c1"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.2.0/amont-agent-2.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2d4207e076944f3bba42342cdaf00e2b64404641e53eeb2bc178be22bc210aaf"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.1/amont-agent-2.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "398d5a8c4fb67d85bc9779dfdd56c5eec734ac6ba70db0d0362e15f77a4d5b43"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.2.0/amont-agent-2.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2ab7872b9be54939854f74ab9b4686cef437d1f799280ac94deef8cca232a8ba"
     end
   end
 
