@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.2.0"
+  version "2.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.2.0/amont-agent-2.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6f3989276759dbce0c2b6fff8e053c2d094ee40061d21ac985da909bae5fb973"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.3.0/amont-agent-2.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ef2af47f7901d42c5ab95fab5b526b0d36bfe3fb16e0a704186e685d10cbe04f"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.2.0/amont-agent-2.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "58b1766800d2be93e5081ec8d29cc356302f50e514b8c4cd61a7d081cf14d93e"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.3.0/amont-agent-2.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "814c9c1fa4ff01c9f1644f17034627925c0f6f889d3e2169b75c4db4cf25fd69"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.2.0/amont-agent-2.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2d4207e076944f3bba42342cdaf00e2b64404641e53eeb2bc178be22bc210aaf"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.3.0/amont-agent-2.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fe1b45a9eafef3b3e7359a2aebbed6a8211c4e91fe646a4f533942494d8dc922"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.2.0/amont-agent-2.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2ab7872b9be54939854f74ab9b4686cef437d1f799280ac94deef8cca232a8ba"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.3.0/amont-agent-2.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "61f6d1376b04e774effe650c13478578098e29d615f212c024834d7085828051"
     end
   end
 
