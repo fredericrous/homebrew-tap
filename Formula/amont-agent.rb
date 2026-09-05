@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.1.0"
+  version "2.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.0/amont-agent-2.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "5b64edfe537bb8e35e9662e10df986346b03ff26ccd234ffe0d0037d494630af"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.1/amont-agent-2.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "78bbade98c7fe9b69fc9bd8ad0712fdf45e6ca190017e17b5dc2c65ebd38ae42"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.0/amont-agent-2.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "00e42cfc1f68c1a1fd698026e32062ab829f7e54f84fca0fa5a8ce5c8504c3aa"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.1/amont-agent-2.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "8a0a4b30a6090c1d7550e21e537284f653f66322aaea5ce0fc63e373b36f5358"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.0/amont-agent-2.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "68c3d455cc93938774ec22dc72063796d28d8d4d6825ad1ac39c6d2bc50fffa8"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.1/amont-agent-2.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "46533be6004c7f3cf1a8a9cc15ec076cebd667480e3f5e6eba15c6af825603c1"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.0/amont-agent-2.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "95fd16e7adc580dbc2961937b6a8f4390d1e75328cf6275704350e0128039a38"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.1.1/amont-agent-2.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "398d5a8c4fb67d85bc9779dfdd56c5eec734ac6ba70db0d0362e15f77a4d5b43"
     end
   end
 
