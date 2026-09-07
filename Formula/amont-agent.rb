@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.3.0"
+  version "2.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.3.0/amont-agent-2.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ef2af47f7901d42c5ab95fab5b526b0d36bfe3fb16e0a704186e685d10cbe04f"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.4.0/amont-agent-2.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "4c7caffaff8880d0936e018a974f4980af6cc896ca9524c12d3eb55c6cbf3f10"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.3.0/amont-agent-2.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "814c9c1fa4ff01c9f1644f17034627925c0f6f889d3e2169b75c4db4cf25fd69"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.4.0/amont-agent-2.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "babbb3d9a5089e0381137eabece2c25766f51f1dade9d65ca7c1464ec5537833"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.3.0/amont-agent-2.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fe1b45a9eafef3b3e7359a2aebbed6a8211c4e91fe646a4f533942494d8dc922"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.4.0/amont-agent-2.4.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "76dfcc96d341b3fd71b1c6f02938ccd7b90dd03ac39099881a038e3954be3665"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.3.0/amont-agent-2.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "61f6d1376b04e774effe650c13478578098e29d615f212c024834d7085828051"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.4.0/amont-agent-2.4.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cfa0800f6bc4f94e719592316c5bbc3f662b146a85991cacf883cf8fd8eeb84b"
     end
   end
 
