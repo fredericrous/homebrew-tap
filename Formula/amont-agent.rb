@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.4.0"
+  version "2.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.4.0/amont-agent-2.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4c7caffaff8880d0936e018a974f4980af6cc896ca9524c12d3eb55c6cbf3f10"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.5.0/amont-agent-2.5.0-aarch64-apple-darwin.tar.gz"
+      sha256 "c9a87aed8e4c11698a13a6f7b5d8bbd8620edd6c68570b640af95d8b8d2de0ef"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.4.0/amont-agent-2.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "babbb3d9a5089e0381137eabece2c25766f51f1dade9d65ca7c1464ec5537833"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.5.0/amont-agent-2.5.0-x86_64-apple-darwin.tar.gz"
+      sha256 "5129dd46a65d0a35b9a07c373c180aec1884d5f3f4d9d77f8989962fd4a41387"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.4.0/amont-agent-2.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "76dfcc96d341b3fd71b1c6f02938ccd7b90dd03ac39099881a038e3954be3665"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.5.0/amont-agent-2.5.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a63f67d911b97c1607b21deb7ced0a9fb7482e6f573e15dabc71f52d2adb7ddb"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.4.0/amont-agent-2.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cfa0800f6bc4f94e719592316c5bbc3f662b146a85991cacf883cf8fd8eeb84b"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.5.0/amont-agent-2.5.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7a42f5feeaf7eefdaef3dca3d9d4327554a9277eadc9b300e6046fd20be4144d"
     end
   end
 
