@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.5.0"
+  version "2.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.5.0/amont-agent-2.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "c9a87aed8e4c11698a13a6f7b5d8bbd8620edd6c68570b640af95d8b8d2de0ef"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.6.0/amont-agent-2.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "bb28b6cd0920e327df5460fa8b989bbba2d74c2d3b1503b0771ceda86674771b"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.5.0/amont-agent-2.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5129dd46a65d0a35b9a07c373c180aec1884d5f3f4d9d77f8989962fd4a41387"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.6.0/amont-agent-2.6.0-x86_64-apple-darwin.tar.gz"
+      sha256 "cb0d221fde1d3c72b1a811d810d474b08364c4f515aae3fefd3d366c4a5d079d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.5.0/amont-agent-2.5.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a63f67d911b97c1607b21deb7ced0a9fb7482e6f573e15dabc71f52d2adb7ddb"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.6.0/amont-agent-2.6.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c4a298f142dc9fbcd51f8e622c6879ba5c1238596a1fd8b44153182174766390"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.5.0/amont-agent-2.5.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7a42f5feeaf7eefdaef3dca3d9d4327554a9277eadc9b300e6046fd20be4144d"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.6.0/amont-agent-2.6.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "99b269236c4cc07d4dc4bc4aba9d2503a64686b29d749b91adefd7176bbb31e0"
     end
   end
 
