@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.9.0"
+  version "2.10.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.9.0/amont-agent-2.9.0-aarch64-apple-darwin.tar.gz"
-      sha256 "c65b9a730c0645ce3268d8935356261cc3fedfd78b305b648e3c01a6767b916c"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.10.0/amont-agent-2.10.0-aarch64-apple-darwin.tar.gz"
+      sha256 "0aaf5800e8d4451bb620c0e100ca2ae449751296b7529b61abf27c01c6fa119f"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.9.0/amont-agent-2.9.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d6636a0f63f00379a00b692ab7daf9072b87e4d2f7a8a757bcf208d356dfbcbd"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.10.0/amont-agent-2.10.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a52da0cb801df610b473451e8f2c136563ffea4c76f9bd8c2b515799f501f932"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.9.0/amont-agent-2.9.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ec9be7783862196ae6c13f9c1a7dff65bf39a2304b174ab1e1d13d672f0ed07f"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.10.0/amont-agent-2.10.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5cf42928842fb55a2a3e6184b192b9c8b5a98997c9b859465b5076d1a0f581f4"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.9.0/amont-agent-2.9.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "346e90fc53ef2f26af06f241bb40bf1404ec5b623af9a49792a891cfe8e64210"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.10.0/amont-agent-2.10.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7f0e8e56aaaca2149b6236ed58e4500fba093e49f59111b1099cc0337e74f057"
     end
   end
 
