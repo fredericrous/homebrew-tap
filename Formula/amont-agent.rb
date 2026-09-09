@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.10.0"
+  version "2.11.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.10.0/amont-agent-2.10.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0aaf5800e8d4451bb620c0e100ca2ae449751296b7529b61abf27c01c6fa119f"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.11.0/amont-agent-2.11.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f370f2324e8e2bba52bda7f774f5c321c495a4390f53a7fdb683189ae91bb129"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.10.0/amont-agent-2.10.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a52da0cb801df610b473451e8f2c136563ffea4c76f9bd8c2b515799f501f932"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.11.0/amont-agent-2.11.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a6b4b884cb4a2e75bd8a46f76bd0af9a70732e3202e413eafde262e73e9d73dd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.10.0/amont-agent-2.10.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5cf42928842fb55a2a3e6184b192b9c8b5a98997c9b859465b5076d1a0f581f4"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.11.0/amont-agent-2.11.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f87d2275169b81de8b1fd9f5a9faa2904c31b0b44a74fec859ae980968acac11"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.10.0/amont-agent-2.10.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7f0e8e56aaaca2149b6236ed58e4500fba093e49f59111b1099cc0337e74f057"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.11.0/amont-agent-2.11.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f843e37955f11e9e4e75df5c3aec7f88d335a63b24a10acd19dbc230f95ba4d6"
     end
   end
 
