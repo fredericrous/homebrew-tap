@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.6.0"
+  version "2.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.6.0/amont-agent-2.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "bb28b6cd0920e327df5460fa8b989bbba2d74c2d3b1503b0771ceda86674771b"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.7.0/amont-agent-2.7.0-aarch64-apple-darwin.tar.gz"
+      sha256 "dfe4813de7e19d7ed559943b3e7cbe247c15a4ea022f2d7043281efff090ec38"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.6.0/amont-agent-2.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "cb0d221fde1d3c72b1a811d810d474b08364c4f515aae3fefd3d366c4a5d079d"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.7.0/amont-agent-2.7.0-x86_64-apple-darwin.tar.gz"
+      sha256 "1b9c64d8c7233282728be07bf72d50e182e64213d08f2367fc343e889ce50175"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.6.0/amont-agent-2.6.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c4a298f142dc9fbcd51f8e622c6879ba5c1238596a1fd8b44153182174766390"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.7.0/amont-agent-2.7.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "53d2e74d4ce3608fdc9df7185e7b5b9881f3f4033283f81f746ddf6ef245f0bd"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.6.0/amont-agent-2.6.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "99b269236c4cc07d4dc4bc4aba9d2503a64686b29d749b91adefd7176bbb31e0"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.7.0/amont-agent-2.7.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8b07f5c6b87391ce9ad56437f0195a688767ee8f40ed72caa43ef8af786c1a36"
     end
   end
 
