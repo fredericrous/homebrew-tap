@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.8.0"
+  version "2.9.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.8.0/amont-agent-2.8.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f1173294d2be666bd6e24eb84a6e53ba7de600bbc0179153948af5411bf1bb54"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.9.0/amont-agent-2.9.0-aarch64-apple-darwin.tar.gz"
+      sha256 "c65b9a730c0645ce3268d8935356261cc3fedfd78b305b648e3c01a6767b916c"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.8.0/amont-agent-2.8.0-x86_64-apple-darwin.tar.gz"
-      sha256 "7c337f9fa49aaec1b6e387502af868bb5477e33497ecb77265eaa7fbbb634d0d"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.9.0/amont-agent-2.9.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d6636a0f63f00379a00b692ab7daf9072b87e4d2f7a8a757bcf208d356dfbcbd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.8.0/amont-agent-2.8.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2418bf6b3828f1d025f6dfb258a54f1246a48a4d5a3a9a02445a34436d029428"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.9.0/amont-agent-2.9.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ec9be7783862196ae6c13f9c1a7dff65bf39a2304b174ab1e1d13d672f0ed07f"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.8.0/amont-agent-2.8.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cae0ae52ab3b1335e1abe8199753c5ca11e36b2fddb8f37719a9fe552fd8c2c4"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.9.0/amont-agent-2.9.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "346e90fc53ef2f26af06f241bb40bf1404ec5b623af9a49792a891cfe8e64210"
     end
   end
 
