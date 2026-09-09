@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.7.0"
+  version "2.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.7.0/amont-agent-2.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "dfe4813de7e19d7ed559943b3e7cbe247c15a4ea022f2d7043281efff090ec38"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.8.0/amont-agent-2.8.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f1173294d2be666bd6e24eb84a6e53ba7de600bbc0179153948af5411bf1bb54"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.7.0/amont-agent-2.7.0-x86_64-apple-darwin.tar.gz"
-      sha256 "1b9c64d8c7233282728be07bf72d50e182e64213d08f2367fc343e889ce50175"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.8.0/amont-agent-2.8.0-x86_64-apple-darwin.tar.gz"
+      sha256 "7c337f9fa49aaec1b6e387502af868bb5477e33497ecb77265eaa7fbbb634d0d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.7.0/amont-agent-2.7.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "53d2e74d4ce3608fdc9df7185e7b5b9881f3f4033283f81f746ddf6ef245f0bd"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.8.0/amont-agent-2.8.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2418bf6b3828f1d025f6dfb258a54f1246a48a4d5a3a9a02445a34436d029428"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.7.0/amont-agent-2.7.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8b07f5c6b87391ce9ad56437f0195a688767ee8f40ed72caa43ef8af786c1a36"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.8.0/amont-agent-2.8.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cae0ae52ab3b1335e1abe8199753c5ca11e36b2fddb8f37719a9fe552fd8c2c4"
     end
   end
 
