@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.12.0"
+  version "2.13.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.12.0/amont-agent-2.12.0-aarch64-apple-darwin.tar.gz"
-      sha256 "5fea28b179a54648f8fe8ff7b06281c306c6bd3e27fb24dbe4b4ec055fe37907"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.13.0/amont-agent-2.13.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e7202ba9b19ec10e156f79934fa94f73fbae69726e6a2187a5f48235e8a666ca"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.12.0/amont-agent-2.12.0-x86_64-apple-darwin.tar.gz"
-      sha256 "f4b02a6428b6ed1bc606e9c87a7bdf3864f7197a5f72446843de5548af980d3b"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.13.0/amont-agent-2.13.0-x86_64-apple-darwin.tar.gz"
+      sha256 "002bd8e7baedc1c1780a6d1721d9bd4ecf5ec6f54495d1de499505e18bfe0dc1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.12.0/amont-agent-2.12.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "659947e9f514a837f8936fc2e09ba365793e8b9b48e33399e72b496c51fdf002"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.13.0/amont-agent-2.13.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "32a7c770ea1af88c4e5b03157dc61a57b8e2d378c024a63113dd615263a2a40f"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.12.0/amont-agent-2.12.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0c2920a7990d41745fff5e09496527a454967a568f5d34c82904958fbf88d0c6"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.13.0/amont-agent-2.13.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1dc00103a7dcb1cb0dabe494841b11a72a6e9b80ffb57f0c4c6974fa1cba0d9d"
     end
   end
 
