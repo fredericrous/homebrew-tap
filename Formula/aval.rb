@@ -17,20 +17,20 @@ class Aval < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/fredericrous/aval/releases/download/v0.6.0/aval-0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "36b3c58288fad46ff81cb5cfe5fb4c967b94cd2c868f9216c692f84b97dba36f"
+      sha256 "115a729ec5a767ddb2bacb369c2a0ef01305dade96965aa11e17b67f2f7ac4af"
     else
       url "https://github.com/fredericrous/aval/releases/download/v0.6.0/aval-0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e58d2a6295f6c2ddfd30bb1bb3e02cffc61a3302c7a442f3cd11bf3109ca44d2"
+      sha256 "37f2a78d6dcfefca7e76ff96c26d35cc628d5f0fd67cd89138e23b6078d06d52"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/fredericrous/aval/releases/download/v0.6.0/aval-0.6.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1f457e3a31492addb4fad98754243a38f4f6faa3630a76c831cda60613b33eca"
+      sha256 "753c2259a662191675f1d83f4a72b139418ed3e07de1d318f4f8f347aaaa6321"
     else
       url "https://github.com/fredericrous/aval/releases/download/v0.6.0/aval-0.6.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ba6c3a0317f93d77b4d0a647bd40fcba68a47b144dbab7af80bf4e46ad2aa2ff"
+      sha256 "42259ac49080b72ce5e26ec0db7b05a8822185fcec59c000210d67ab53aa9d51"
     end
   end
 
