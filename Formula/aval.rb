@@ -11,26 +11,26 @@
 class Aval < Formula
   desc "The current architecture decision for a key, as a typed answer"
   homepage "https://github.com/fredericrous/aval"
-  version "1.1.0"
+  version "1.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fredericrous/aval/releases/download/v1.1.0/aval-1.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0cf1f4bcf0ab017e60cc5cccaf35e1c4441dd2beb07b8530970646903283e9a0"
+      url "https://github.com/fredericrous/aval/releases/download/v1.2.0/aval-1.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "d7ab2bbe4a485b929b3fc6b226b8d57305644d84cff56bba07c21a262456b45d"
     else
-      url "https://github.com/fredericrous/aval/releases/download/v1.1.0/aval-1.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d6ff8958d5f1edec346701d6065d275c61c338b7dcb0be3b838df671dd296ea2"
+      url "https://github.com/fredericrous/aval/releases/download/v1.2.0/aval-1.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d7400cea775cb213c806e46a85fc224e799aa8e9af64c792ceaae03c1dbfea81"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/fredericrous/aval/releases/download/v1.1.0/aval-1.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "47b2424ca7cc415681d0f8df2264f74e5706105f5945b83f3d4850d7de5518db"
+      url "https://github.com/fredericrous/aval/releases/download/v1.2.0/aval-1.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ceb539ade2dacc7465a69dde1a2e8859ac8ae461388363e4b69dc2645fd37824"
     else
-      url "https://github.com/fredericrous/aval/releases/download/v1.1.0/aval-1.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b5321dec5acb4e51bda9fe15bcd6c386c361c4f3ece5bb59f8b1a74df01509ba"
+      url "https://github.com/fredericrous/aval/releases/download/v1.2.0/aval-1.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1c2b8afc66dec3b48e0e4818f0c80259e9642e79af0e632a824fd208a5b8b2b1"
     end
   end
 
