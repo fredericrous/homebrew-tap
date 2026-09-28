@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.18.0"
+  version "2.19.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.18.0/amont-agent-2.18.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2fab305bd7add7b120cda25ff3630d6d5936a3f09c0366f2f0880d6558d202d9"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.19.0/amont-agent-2.19.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f980b1c088d2f55bd47924d3f9688c8502c2e4f27bc224a389b84867b00383c1"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.18.0/amont-agent-2.18.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e48500e40a15b2c1bfc3c39ffeac7680a3b2da6027dad07b04556a3036bcceae"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.19.0/amont-agent-2.19.0-x86_64-apple-darwin.tar.gz"
+      sha256 "84ef4273396d549885bd94e2e4aeba486465574e2faadac36c6d70f4243546c3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.18.0/amont-agent-2.18.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "78dac0759c3b2307f7d45a945288a2b9a469c15c884cc25a817016d4ee986961"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.19.0/amont-agent-2.19.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5ac14cc8b2ff6345a34d9c944e01e718630b75c2ab3af9deda1c9fc4e6a72039"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.18.0/amont-agent-2.18.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7537ddab1d734e685f42e53036caf21ffcb185df0ab616597b544ad059778337"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.19.0/amont-agent-2.19.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "715500f395a08d4e8a4fdba647876e9750bf7ee04258105a03c132071becc147"
     end
   end
 
