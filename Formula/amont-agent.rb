@@ -12,28 +12,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.23.1"
+  version "2.24.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.23.1/amont-agent-2.23.1-aarch64-apple-darwin.tar.gz"
-      sha256 "22c6f772e593345ccd0a23eac9f9a5d6f7b3494993ea6a3e91e9dfa0ff2f4f08"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.24.0/amont-agent-2.24.0-aarch64-apple-darwin.tar.gz"
+      sha256 "4e6a3fece0a07d4c8519c20f88e7810704241e94cceea3cc351a74da6e09999c"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.23.1/amont-agent-2.23.1-x86_64-apple-darwin.tar.gz"
-      sha256 "77b449a209c95d1e4dc3cb8b488b67830efb0d5d1a6a3fb9b8cd1c2c366a0e2c"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.24.0/amont-agent-2.24.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b428402ea36ce27ad57cc3277ddd8516712cdee29af7719d70c77edb7e4cfbb4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.23.1/amont-agent-2.23.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "22d5d51625c0102b4277b377809638b5f9bf9888c43e7b867f12e108ce929bd9"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.24.0/amont-agent-2.24.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3c9cba520f034b49dd2571b0866170a3442da0a99728e803d790b1d1253f2f74"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.23.1/amont-agent-2.23.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "780de82cb6ad727a86dc58e135f53461facad5777a97716ae3c83661a50b43b1"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.24.0/amont-agent-2.24.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "85ae31ed9926b2ad621dff2175cc584bd203e5fda72c24bbe122f34cad8093ce"
     end
   end
 
