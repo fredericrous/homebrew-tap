@@ -1,15 +1,9 @@
-# The initial formula for fredericrous/homebrew-tap.
-#
-# Copy this to `Formula/amont-agent.rb` in the tap ONCE, then never edit it by
-# hand: `scripts/bump-tap.py` rewrites the version, the four url/sha pairs and
-# the `%w[...]` line of `refusing_by_default` on every release, and it asserts
-# on exactly this shape — four `url` lines each followed by a `sha256`, one
+# The amont-agent formula. Do not edit it by hand: on every release,
+# amont-agent's `scripts/bump-tap.py` rewrites the version, the four url/sha
+# pairs and the `%w[...]` line of `refusing_by_default`, and it asserts on
+# exactly this shape — four `url` lines each followed by a `sha256`, one
 # `version` line, and one `%w[...]` line inside `def refusing_by_default`.
 # Change the shape here and the script will refuse rather than guess.
-#
-# The placeholder sha256s are zeros. The first release's `publish-tap` job
-# replaces them with the real ones; brew would refuse this file as-is, which
-# is the correct behaviour for a formula that names no real bytes yet.
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
