@@ -1,10 +1,11 @@
 # The initial formula for fredericrous/homebrew-tap.
 #
 # Copy this to `Formula/amont-agent.rb` in the tap ONCE, then never edit it by
-# hand: `scripts/bump-tap.py` rewrites the version and the four url/sha pairs
-# on every release, and it asserts on exactly this shape — four `url` lines
-# each followed by a `sha256`, and one `version` line. Change the shape here
-# and the script will refuse rather than guess.
+# hand: `scripts/bump-tap.py` rewrites the version, the four url/sha pairs and
+# the `%w[...]` line of `refusing_by_default` on every release, and it asserts
+# on exactly this shape — four `url` lines each followed by a `sha256`, one
+# `version` line, and one `%w[...]` line inside `def refusing_by_default`.
+# Change the shape here and the script will refuse rather than guess.
 #
 # The placeholder sha256s are zeros. The first release's `publish-tap` job
 # replaces them with the real ones; brew would refuse this file as-is, which
@@ -41,6 +42,12 @@ class AmontAgent < Formula
     bin.install "amont-agent"
   end
 
+  # Written by amont-agent's scripts/bump-tap.py from the released binary's
+  # `amont-agent rules --json`; never edit by hand.
+  def refusing_by_default
+    %w[pipe-to-tail plan-review-panel]
+  end
+
   def caveats
     <<~EOS
       The guard is installed but not wired in. To add it to Claude Code:
@@ -49,13 +56,26 @@ class AmontAgent < Formula
         amont-agent install --write  # merges it into ~/.claude/settings.json
         amont-agent doctor           # is it installed, runnable, and firing?
 
-      Only pipe-to-tail refuses a command; every other rule advises or
-      observes, and its stance and measured rate are one line away:
+      These rules refuse a command by default:
+      #{refusing_by_default.map { |r| "  #{r}" }.join("\n")}
+      Every other rule advises or observes; each one's stance is one line away:
         amont-agent status
     EOS
   end
 
   test do
-    assert_match "pipe-to-tail", shell_output("#{bin}/amont-agent rules")
+    # Up to 2.26.0, `rules` ignores `--json` (it prints the text table,
+    # exit 0), so the check against the caveat's list runs from 2.27.0, the
+    # first release that has it.
+    if version >= Version.new("2.27.0")
+      require "json"
+      ohai "checking refusing_by_default against `amont-agent rules --json`"
+      rules = JSON.parse(shell_output("#{bin}/amont-agent rules --json"))
+      shipped = rules.select { |r| r["kind"] == "rule" && r["default_stance"] == "deny" }
+      assert_equal refusing_by_default.sort, shipped.map { |r| r["id"] }.sort
+    else
+      ohai "#{version} predates `rules --json`: checking the text table"
+      assert_match "pipe-to-tail", shell_output("#{bin}/amont-agent rules")
+    end
   end
 end
