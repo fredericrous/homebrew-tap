@@ -11,26 +11,26 @@
 class Relais < Formula
   desc "Coding-agent execution companion: routing, context, verification, accounting"
   homepage "https://github.com/fredericrous/relais"
-  version "0.1.1"
+  version "0.10.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fredericrous/relais/releases/download/v0.1.1/relais-0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "bc1680665b4079cbc351dbd3baf6d7950eed7c1d5ce90b36ae8e61a099279afc"
+      url "https://github.com/fredericrous/relais/releases/download/v0.10.0/relais-0.10.0-aarch64-apple-darwin.tar.gz"
+      sha256 "4bdaa609c6e16b9e045c2111c44f9e441520bf2d50f0e53659d32ed3d273d2a5"
     else
-      url "https://github.com/fredericrous/relais/releases/download/v0.1.1/relais-0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "e2a9af0fa23ab00ef01b94185cf30e2175b203058e23944a2c2d8f1e3ea2f244"
+      url "https://github.com/fredericrous/relais/releases/download/v0.10.0/relais-0.10.0-x86_64-apple-darwin.tar.gz"
+      sha256 "fc2ccc2a75ea348902893c36529643e34837d58abb340ac8d953173e62e7437a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/fredericrous/relais/releases/download/v0.1.1/relais-0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6e7113553958d201abb78a3811affd6ef7f18897e95bc4919f3cbcfd33ff4957"
+      url "https://github.com/fredericrous/relais/releases/download/v0.10.0/relais-0.10.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1efc8a6267cc4f7158afc6b265a3504409073cc7890e272d878f70ccee44abda"
     else
-      url "https://github.com/fredericrous/relais/releases/download/v0.1.1/relais-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3a6eccb9eaed85fb0067c339ce11a5dc0fc6e0cb58f1c6955a68f0aa9193dccc"
+      url "https://github.com/fredericrous/relais/releases/download/v0.10.0/relais-0.10.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c36450d0c340399debb1d14e9fadf12b66fe5f279330e3e600adcddb7f8859ed"
     end
   end
 
@@ -48,9 +48,13 @@ class Relais < Formula
         relais init                      write relais.toml, then commit it
         relais plan --task task.json     the route, and the authority hash to trust
 
-      The trust grant and the worker permission allowlist live in
-      ~/.config/relais/machine.toml — see the README. The specification is
-      #{doc}/SPEC.md.
+      Runs start from Claude Code, through the relais plugin. Install it,
+      and remove an older relais hook wiring, once:
+
+        relais install --claude --hooks --user --write
+
+      The trust grant lives in ~/.config/relais/machine.toml — see the
+      README. The specification is #{doc}/SPEC.md.
     EOS
   end
 
@@ -62,7 +66,7 @@ class Relais < Formula
     # the binary starts: `init` writes the policy file, and refuses to
     # write it twice (exit 2, by contract).
     system "git", "init", "-q", "--template=", testpath/"repo"
-    assert_match "wrote relais.toml", shell_output("cd #{testpath}/repo && #{bin}/relais init")
+    assert_match %r{wrote \S*/relais\.toml}, shell_output("cd #{testpath}/repo && #{bin}/relais init")
     assert_match "schema_version = 1", (testpath/"repo/relais.toml").read
     assert_match "never overwrites", shell_output("cd #{testpath}/repo && #{bin}/relais init 2>&1", 2)
   end
