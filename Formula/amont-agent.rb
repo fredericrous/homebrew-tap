@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.28.0"
+  version "2.29.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.28.0/amont-agent-2.28.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ba8d4dbe1166894490c2e2c4cea9360a6bd7c14a506913546cf21af9c950ad4d"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.29.0/amont-agent-2.29.0-aarch64-apple-darwin.tar.gz"
+      sha256 "88b1692b1f97b5841fe0a724cd1bfe74ed466ee1b91752a65068e513eb979482"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.28.0/amont-agent-2.28.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b2f601c9b9ecf569db113a5afc9098f4e29a345560a64844be9e2827dbf917e0"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.29.0/amont-agent-2.29.0-x86_64-apple-darwin.tar.gz"
+      sha256 "c434a3398f174b001b2621c2c0690c995dc9a5a82656f21dce1ee916ac826ee0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.28.0/amont-agent-2.28.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7c06516179b2f90fb64f0589d8548f5646b0f3e2460db705cc6193d87b2ec421"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.29.0/amont-agent-2.29.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2d0898d0746ec4cc9bae704c9ebf263e92bd646cd4bf2193db646d8aab45899c"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.28.0/amont-agent-2.28.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7bec418991909e89be5421ede7be9f2b14100ecc02650b3344409880147d03bf"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.29.0/amont-agent-2.29.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9cdda51a98f89879e1c190db6a5ea26a345f1853912d498eaf55a790b84f5579"
     end
   end
 
