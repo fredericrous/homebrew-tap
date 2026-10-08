@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.29.0"
+  version "2.29.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.29.0/amont-agent-2.29.0-aarch64-apple-darwin.tar.gz"
-      sha256 "88b1692b1f97b5841fe0a724cd1bfe74ed466ee1b91752a65068e513eb979482"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.29.1/amont-agent-2.29.1-aarch64-apple-darwin.tar.gz"
+      sha256 "a39b0b3edaf9573b33c748e2ddabf5b1457a2f7f9fd31833aa02d4b22a046f8a"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.29.0/amont-agent-2.29.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c434a3398f174b001b2621c2c0690c995dc9a5a82656f21dce1ee916ac826ee0"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.29.1/amont-agent-2.29.1-x86_64-apple-darwin.tar.gz"
+      sha256 "dcdf48d7f567533c68dc6120a6e63cf99cc8d015e493c44fdd897dafa386637a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.29.0/amont-agent-2.29.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2d0898d0746ec4cc9bae704c9ebf263e92bd646cd4bf2193db646d8aab45899c"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.29.1/amont-agent-2.29.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3ba39d2c174dc9ef593549214882b4ec83dd0a58cd8c69d5f0050ab113b8f9b0"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.29.0/amont-agent-2.29.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9cdda51a98f89879e1c190db6a5ea26a345f1853912d498eaf55a790b84f5579"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.29.1/amont-agent-2.29.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "66addf69d534f12e2f1557dac909a51d80b2ceb0386b5dde845bee85140f8c19"
     end
   end
 
