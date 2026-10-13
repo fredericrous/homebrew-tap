@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.38.0"
+  version "2.39.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.38.0/amont-agent-2.38.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4bc93da8165352faa7b7bd242a906a58e78dfde7925262ae23bbd3a07e6c21b4"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.39.0/amont-agent-2.39.0-aarch64-apple-darwin.tar.gz"
+      sha256 "9c58f25e2cb8e3dfb862d3256d0bfe27bd3708f0a8f5e5aea1ff23954d9fa25b"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.38.0/amont-agent-2.38.0-x86_64-apple-darwin.tar.gz"
-      sha256 "7de1dc4f4b32e28c539b67ece2d1f1d1670d4a7d0c31e284330991bb6b696d9e"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.39.0/amont-agent-2.39.0-x86_64-apple-darwin.tar.gz"
+      sha256 "5008739f37df5570aef95fb19205d471ab928d180e966040cf4bd3cb0ada9897"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.38.0/amont-agent-2.38.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5b8bd5d9935d3fda95b39f1744db9ad7b00a7c505e2ab7b0537901ce5ad76fa4"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.39.0/amont-agent-2.39.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "196062c2b3fc6460d1845927001815f447c35cfc7ed09e6bc17fa6c427149fba"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.38.0/amont-agent-2.38.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2f25e34c32e64a710521b94c590757c1fae0320193bd4279ff6c8b599ec76254"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.39.0/amont-agent-2.39.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2200a52217cb4a79501db3bb5fdcbb784f9dabdbb770fa02baaf6019862660b4"
     end
   end
 
