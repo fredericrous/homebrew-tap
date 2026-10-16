@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.42.0"
+  version "2.43.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.42.0/amont-agent-2.42.0-aarch64-apple-darwin.tar.gz"
-      sha256 "09dc15e961cd558070ef17a7457c5f9f954ef9bab6a2bc492b32fdd61a82b0d1"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.43.0/amont-agent-2.43.0-aarch64-apple-darwin.tar.gz"
+      sha256 "fda9d174c9b3652e381e96e3c60b425c9a5b11a1d8166cc5ad54048a3bef8900"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.42.0/amont-agent-2.42.0-x86_64-apple-darwin.tar.gz"
-      sha256 "f48019df85bb57ed8b1ba93c8bb20f0a3c31e0c84318607aeeddaa156ceaa26a"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.43.0/amont-agent-2.43.0-x86_64-apple-darwin.tar.gz"
+      sha256 "af7847b5cd9cc4d00a73423819999e5f3cf2b148c4c364a4a10c1a432edb0171"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.42.0/amont-agent-2.42.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "048986f4700221f6f7ac9c971374fd8aece6f264585b85c3db93e1c080f5a458"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.43.0/amont-agent-2.43.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b898960dba4f3a30374e94247c2d56d7f2127d1b8eff45f6e8b1d52a28812962"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.42.0/amont-agent-2.42.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b3aecda3c524abf62a0ddd588c954bda43f3b7c788d73605a5d034384b664ea7"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.43.0/amont-agent-2.43.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3afe5717b7f1334ae76ddf8cc0f50821a9ebe05291f0ac72daddec66d546d27b"
     end
   end
 
