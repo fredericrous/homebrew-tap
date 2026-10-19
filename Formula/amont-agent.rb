@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "2.44.0"
+  version "2.45.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.44.0/amont-agent-2.44.0-aarch64-apple-darwin.tar.gz"
-      sha256 "625c0857108be4846063437c406917f757b11edcaebb6abca74c676d25137801"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.45.0/amont-agent-2.45.0-aarch64-apple-darwin.tar.gz"
+      sha256 "67f269547b71475ac848d9a5ea9f97d4ea25e2069b1108e7907014560c5aef0f"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.44.0/amont-agent-2.44.0-x86_64-apple-darwin.tar.gz"
-      sha256 "f03e58d8fada19de4e20eae56b7720a157dbead55e43d81d15a882e83581d780"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.45.0/amont-agent-2.45.0-x86_64-apple-darwin.tar.gz"
+      sha256 "5994502398dfe84bc1315bcfd66199b342ce86b5e983c4c92fc4af34d4a03478"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.44.0/amont-agent-2.44.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "56bce10a1ee3fbbfc942cdb3d8b87750731c6c2c10a7aaed8eb0919560256d7a"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.45.0/amont-agent-2.45.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d90105bdd0f3ba1401ee0c3150aeb68086dad06d33248a11fc7acfcd42b803c0"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v2.44.0/amont-agent-2.44.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d020a59503159f15dc1e64a267eeae02b3b4b8bdc6bf6a0eff6993eb84f301d7"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v2.45.0/amont-agent-2.45.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "665b4f202be5d45678e6c9c393d3d943ca2d4cbdfe5203e226d7efa518fcea18"
     end
   end
 
