@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "3.0.0"
+  version "3.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.0.0/amont-agent-3.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2c1384c8cd6684ee482c2fe7ed25743891fad4537f951618e494e6d5b82f447e"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.1.0/amont-agent-3.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f4c764bea21e367a9c2215c5ea25d4a76da6b4b4c53265856fe4d0904a907ae9"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.0.0/amont-agent-3.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a78be3b8dd7e46d3004b12944ad65a25ce2186275a5c0bd49ab994789ff16e3e"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.1.0/amont-agent-3.1.0-x86_64-apple-darwin.tar.gz"
+      sha256 "35b781fdf6e36b0cb3ffed59c9f2426a79ae4992988286e3c1cf3c1d79a2fd95"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.0.0/amont-agent-3.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d6315c07827e6e8683945e26caf5bd69b992d6a0ad094ff1672489bbdc055f6f"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.1.0/amont-agent-3.1.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "75a199ee67e77dfc01c8fe7cede399f632d0a577a63fcac8089797118abd418e"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.0.0/amont-agent-3.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7ab6637f24d897cded4ca03cf4e35341827b392fef1b68660fb223e58a3eba0d"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.1.0/amont-agent-3.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "89596e37dc13c145a852b12f647752b8ddd672f43e85b038ec87020fd3989aab"
     end
   end
 
