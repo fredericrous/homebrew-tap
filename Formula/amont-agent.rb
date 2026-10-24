@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "3.1.1"
+  version "3.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.1.1/amont-agent-3.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "62a86f54aa9b619bf609ef58688bb584ef4a4cd991bf6f10bc5fcd2dc59b0a00"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.2.0/amont-agent-3.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "38ab8cbe5b37ce3053b92f9bc7abb97c1dabe4a9098d99d422130b8064418e9f"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.1.1/amont-agent-3.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "2659c9cbff39066366d30da7221fa4c4c30a491cf882b87ec9d5316a3f74cb52"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.2.0/amont-agent-3.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "ea435548d4f54149ef867092879ac9ffa2de2aded8d10498cffb28525567f987"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.1.1/amont-agent-3.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "20e2f68641d95ca6ffb0d0643db29b84dca6ad3b6ccc7fb13c918bacce9dbfaa"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.2.0/amont-agent-3.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2b7ee2cfc4b2847c3ef6c3688617c5aa29c9cd21ddc3a82aad5f3e562c766a43"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.1.1/amont-agent-3.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2910efb3a63584d2fabc08d0db8551f9c02c8a40c747d9adf3b978ffe5c63182"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.2.0/amont-agent-3.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3f14ce1f63e3a504c2210aa2b0ff38beb9c850c963b4b1e45d08dfd126c30764"
     end
   end
 
