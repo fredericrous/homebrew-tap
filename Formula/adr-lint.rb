@@ -1,28 +1,28 @@
 class AdrLint < Formula
   desc "Checks a tree against the decided code rules a linter matches exactly, and marks candidate lines for reviewers (ADR-0044)"
   homepage "https://github.com/fredericrous/adr-lint"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.1.0/adr-lint-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "29c3e9deb5d9fd66850d487896bf0b718e083faec9075c9fb4b549f30388ed8b"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.2.0/adr-lint-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "0179b5ef9547153c56fe8178db6f154964d888dc7e62f704954ca28816614cf7"
     end
     on_intel do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.1.0/adr-lint-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "2efc49540d7c506b73f76cf363449a52db9d257e3cadee692a34d33c75d83467"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.2.0/adr-lint-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "7d95a99932924f073d97571314060298e08b67ff47d96acb5370ede22eb92f67"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.1.0/adr-lint-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e08d30ede4ea51204d19d3ce71cc1edff317120493ae155009c7d82e80b19761"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.2.0/adr-lint-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "eb47b997e2a07bd1da12c44df91d172fa5a8f4b10a6135b4137b67bfb522614e"
     end
     on_intel do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.1.0/adr-lint-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e9fd9518d1c8a0211ff71d5e7c39c5d2e9fcfdd9a465dfce6c537a062d0aa4aa"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.2.0/adr-lint-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f3eae2bb31a68d15dc196db87f2485af454bd2105f141523e558a0a5409fe3ef"
     end
   end
 
