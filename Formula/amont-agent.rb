@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "3.2.0"
+  version "3.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.2.0/amont-agent-3.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "38ab8cbe5b37ce3053b92f9bc7abb97c1dabe4a9098d99d422130b8064418e9f"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.3.0/amont-agent-3.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "9372a62753967e377d5f230415ccffb1444acb3d5b38c336454952aeefc1f0d6"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.2.0/amont-agent-3.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ea435548d4f54149ef867092879ac9ffa2de2aded8d10498cffb28525567f987"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.3.0/amont-agent-3.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "c0b65f7705868fed149709797ee2a20a3f57cfbb32dc53b2e36f7a20e306981a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.2.0/amont-agent-3.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2b7ee2cfc4b2847c3ef6c3688617c5aa29c9cd21ddc3a82aad5f3e562c766a43"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.3.0/amont-agent-3.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d96aed0eb4e9b4a626e32e8e2d3dc8d3f6f319d44dce62bcbf6cc409fc8025a9"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.2.0/amont-agent-3.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3f14ce1f63e3a504c2210aa2b0ff38beb9c850c963b4b1e45d08dfd126c30764"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.3.0/amont-agent-3.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c1c9c243872c36041c34f129ed03b87e70dcbf862a11130a09352482b6a36335"
     end
   end
 
