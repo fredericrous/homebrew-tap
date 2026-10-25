@@ -1,28 +1,28 @@
 class AdrLint < Formula
   desc "Checks a tree against the decided code rules a linter matches exactly, and marks candidate lines for reviewers (ADR-0044)"
   homepage "https://github.com/fredericrous/adr-lint"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.4.0/adr-lint-0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d6f1f8a4795a45d198724f860dd5d3c73e04e698465b72634ba661d2ada662ff"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.5.0/adr-lint-0.5.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f1971728130c5d45dbe6f26f22dee4592aa1b0deff10c8f1bfe8e08fa0497f27"
     end
     on_intel do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.4.0/adr-lint-0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "83def7ff8f451d2834fce914896645a0b1b95f5d6e5d3965602f221c3660b5a6"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.5.0/adr-lint-0.5.0-x86_64-apple-darwin.tar.gz"
+      sha256 "832e0085a59b3d09be6d78e901916e387a3f9ece978e592631ea642e8195c097"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.4.0/adr-lint-0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bd0f1fbc9c48350e6f2c00f23e1661cf524699e0ed63c2bcfde11a570e63b862"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.5.0/adr-lint-0.5.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ba4d90bb7fae13629c5aa6057e40d8ed97b059ab53729c947570e4eb75519ff2"
     end
     on_intel do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.4.0/adr-lint-0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c73d6dcadf5c667c84d65ae17286924f0930bc0ae5c4603ba6ee6143ad8055fc"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.5.0/adr-lint-0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "671e16a2f0e8f6512bfb0e2ac89e8f0dfbfef730a27f7b3ee60876e952f43145"
     end
   end
 
