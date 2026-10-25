@@ -1,28 +1,28 @@
 class AdrLint < Formula
   desc "Checks a tree against the decided code rules a linter matches exactly, and marks candidate lines for reviewers (ADR-0044)"
   homepage "https://github.com/fredericrous/adr-lint"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.5.0/adr-lint-0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f1971728130c5d45dbe6f26f22dee4592aa1b0deff10c8f1bfe8e08fa0497f27"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.6.0/adr-lint-0.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "9be2803932fbeedb9352c95f3afd0df539a0914bc18ec43ee30a2e0004fa09a6"
     end
     on_intel do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.5.0/adr-lint-0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "832e0085a59b3d09be6d78e901916e387a3f9ece978e592631ea642e8195c097"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.6.0/adr-lint-0.6.0-x86_64-apple-darwin.tar.gz"
+      sha256 "6e19e9b494867f8e93813efea2d790ffd5b1c05dc1a27ceec732e0f898221bc2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.5.0/adr-lint-0.5.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ba4d90bb7fae13629c5aa6057e40d8ed97b059ab53729c947570e4eb75519ff2"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.6.0/adr-lint-0.6.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3f791dea5030bb47b31ee171cda376ca7e54049f23d6cb830a06fdc786cdfb6a"
     end
     on_intel do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.5.0/adr-lint-0.5.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "671e16a2f0e8f6512bfb0e2ac89e8f0dfbfef730a27f7b3ee60876e952f43145"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.6.0/adr-lint-0.6.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fcb3cdab57efc02628277198e8c725d011cd30be78ae0e93111b538835fbdd08"
     end
   end
 
