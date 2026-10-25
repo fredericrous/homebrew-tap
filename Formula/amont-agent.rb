@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "3.3.0"
+  version "3.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.3.0/amont-agent-3.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "9372a62753967e377d5f230415ccffb1444acb3d5b38c336454952aeefc1f0d6"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.4.0/amont-agent-3.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "8f2226e6ccdbbb4159fccd53906497bcacc6f96a269be6b438c11d37bd125406"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.3.0/amont-agent-3.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c0b65f7705868fed149709797ee2a20a3f57cfbb32dc53b2e36f7a20e306981a"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.4.0/amont-agent-3.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "4c70d393111830054a102aac0e7f1805af87ac0efe7846fe3c9391c81c46f4aa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.3.0/amont-agent-3.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d96aed0eb4e9b4a626e32e8e2d3dc8d3f6f319d44dce62bcbf6cc409fc8025a9"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.4.0/amont-agent-3.4.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "780fc19db1b97aec0e041005b6c128c7a2b591b88f21ecfc9899616711be61e9"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.3.0/amont-agent-3.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c1c9c243872c36041c34f129ed03b87e70dcbf862a11130a09352482b6a36335"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.4.0/amont-agent-3.4.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "53b45cfa860a0ca909d9ad2c42766143d61ecdc9fe4356a8ae68f4135451b196"
     end
   end
 
