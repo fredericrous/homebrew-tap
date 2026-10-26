@@ -1,28 +1,28 @@
 class AdrLint < Formula
   desc "Checks a tree against the decided code rules a linter matches exactly, and marks candidate lines for reviewers (ADR-0044)"
   homepage "https://github.com/fredericrous/adr-lint"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.6.0/adr-lint-0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "9be2803932fbeedb9352c95f3afd0df539a0914bc18ec43ee30a2e0004fa09a6"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.7.0/adr-lint-0.7.0-aarch64-apple-darwin.tar.gz"
+      sha256 "8dca7e43db502012e0c546938f263298d9b57924d75745aaecf436986bd3fb7a"
     end
     on_intel do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.6.0/adr-lint-0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6e19e9b494867f8e93813efea2d790ffd5b1c05dc1a27ceec732e0f898221bc2"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.7.0/adr-lint-0.7.0-x86_64-apple-darwin.tar.gz"
+      sha256 "3c665044f2f73d0223cb052681dd5e62cd976aa1e77c21c1e4dc004577ccceb6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.6.0/adr-lint-0.6.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3f791dea5030bb47b31ee171cda376ca7e54049f23d6cb830a06fdc786cdfb6a"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.7.0/adr-lint-0.7.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fe691dd09e0a4be9d9dce8c5a8fc3b4b47567ae6868bff6106f465d5a4f456c4"
     end
     on_intel do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.6.0/adr-lint-0.6.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fcb3cdab57efc02628277198e8c725d011cd30be78ae0e93111b538835fbdd08"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.7.0/adr-lint-0.7.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f393bfca0885b3b8795aad177873d020077eccaeb74886e025a218db96176e3e"
     end
   end
 
