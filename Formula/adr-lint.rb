@@ -1,28 +1,28 @@
 class AdrLint < Formula
   desc "Checks a tree against the decided code rules a linter matches exactly, and marks candidate lines for reviewers (ADR-0044)"
   homepage "https://github.com/fredericrous/adr-lint"
-  version "0.7.0"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.7.0/adr-lint-0.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "8dca7e43db502012e0c546938f263298d9b57924d75745aaecf436986bd3fb7a"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.8.0/adr-lint-0.8.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3f6d588bbae5a5018c9d210f4652e0dbfea1299dceb732386dd149c6971f090e"
     end
     on_intel do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.7.0/adr-lint-0.7.0-x86_64-apple-darwin.tar.gz"
-      sha256 "3c665044f2f73d0223cb052681dd5e62cd976aa1e77c21c1e4dc004577ccceb6"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.8.0/adr-lint-0.8.0-x86_64-apple-darwin.tar.gz"
+      sha256 "de427c8a669cbadfae6e568b451df457cc81b827015e6c651a490fadfe53d4ee"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.7.0/adr-lint-0.7.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fe691dd09e0a4be9d9dce8c5a8fc3b4b47567ae6868bff6106f465d5a4f456c4"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.8.0/adr-lint-0.8.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "500f945fb9184f3fa77c371598a00e1a82f925e7b154ba7f848abd7716652e5b"
     end
     on_intel do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.7.0/adr-lint-0.7.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f393bfca0885b3b8795aad177873d020077eccaeb74886e025a218db96176e3e"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.8.0/adr-lint-0.8.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4298718e843d5253ed84a64a4b7ed98ee5bab5bd3dc0d0bd1aeb59920d92be03"
     end
   end
 
