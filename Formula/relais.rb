@@ -11,26 +11,26 @@
 class Relais < Formula
   desc "Coding-agent execution companion: routing, context, verification, accounting"
   homepage "https://github.com/fredericrous/relais"
-  version "0.34.0"
+  version "0.35.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fredericrous/relais/releases/download/v0.34.0/relais-0.34.0-aarch64-apple-darwin.tar.gz"
-      sha256 "e37caf806cbeef87bdc1fd6c6d2007238685f2342b2370565628450590654c56"
+      url "https://github.com/fredericrous/relais/releases/download/v0.35.0/relais-0.35.0-aarch64-apple-darwin.tar.gz"
+      sha256 "eee7c138d6d41c4502eb346eab4f3f476f77c0796add92029c8c3d66ee04ebce"
     else
-      url "https://github.com/fredericrous/relais/releases/download/v0.34.0/relais-0.34.0-x86_64-apple-darwin.tar.gz"
-      sha256 "fd373a488194a4bd169061b2703293703d292fc11fb209864e59b2c7a372cb29"
+      url "https://github.com/fredericrous/relais/releases/download/v0.35.0/relais-0.35.0-x86_64-apple-darwin.tar.gz"
+      sha256 "3cddc8f39647bd9ec994eb7aefaad101d92b42afff494fed195df4ac910c3e73"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/fredericrous/relais/releases/download/v0.34.0/relais-0.34.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e55ea75b56cd35fb88c74d695b94ebe43bbd7da427b3ef483effbcb2fb0a77a5"
+      url "https://github.com/fredericrous/relais/releases/download/v0.35.0/relais-0.35.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "81866254315d9115ccda0fa593d0322884e00f9de5510f695fb482fbe8a2767d"
     else
-      url "https://github.com/fredericrous/relais/releases/download/v0.34.0/relais-0.34.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "84133b1d5d2d65c3c44f15af4de1cf1dc96d3aba972f81d6f992bfa741ab469a"
+      url "https://github.com/fredericrous/relais/releases/download/v0.35.0/relais-0.35.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a374ddab3334482f2d47baac3749271938475828a12a3552570c0a0ce6f548bf"
     end
   end
 
