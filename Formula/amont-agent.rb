@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "3.5.0"
+  version "3.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.5.0/amont-agent-3.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "bfe667f193b4504c2824914125b8460db4a4816debc151165cfaf078634c0e66"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.6.0/amont-agent-3.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "d3fe387822b9ca21c80d846f4c2dc1a3b412ce148d962f50d345799f18b150ed"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.5.0/amont-agent-3.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "83fa5325788bcba95e619e6ec06c205aafc87a97019431d0eec01c447fd5915f"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.6.0/amont-agent-3.6.0-x86_64-apple-darwin.tar.gz"
+      sha256 "7f82841d72d9cda34df18edcbc02602f872883ea7e8e37e66fbb3c1eb004e812"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.5.0/amont-agent-3.5.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c89fada2f3115609f22acca7520cef8139fa8c72e530a5de88a78b7857432a9b"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.6.0/amont-agent-3.6.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9e0018cc88b5da02cb5554792484219810d4bc5250c6d177dba16a11f5323444"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.5.0/amont-agent-3.5.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ebe6a383e99051267a36e2829dae11782d6aba3e9ac91dfeb59145a4868e4164"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.6.0/amont-agent-3.6.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f9b725af44bafd097878d221fb1d24da23c22fcefe22b0c02e19a48c2ed71908"
     end
   end
 
