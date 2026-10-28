@@ -1,28 +1,28 @@
 class AdrLint < Formula
   desc "Checks a tree against the decided code rules a linter matches exactly, and marks candidate lines for reviewers (ADR-0044)"
   homepage "https://github.com/fredericrous/adr-lint"
-  version "0.8.1"
+  version "0.9.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.8.1/adr-lint-0.8.1-aarch64-apple-darwin.tar.gz"
-      sha256 "7573f7fc44d57c35827b656eea75796e14639692d652f4bd676d6ea50954a7a2"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.9.0/adr-lint-0.9.0-aarch64-apple-darwin.tar.gz"
+      sha256 "47cc03777193837baa82d405351e82a2bacf04b428b4c149962120886d0ba4c3"
     end
     on_intel do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.8.1/adr-lint-0.8.1-x86_64-apple-darwin.tar.gz"
-      sha256 "67daca4c31b580e8de5e8b2d5169a875ea861224fa42d426126c77120ee1a806"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.9.0/adr-lint-0.9.0-x86_64-apple-darwin.tar.gz"
+      sha256 "e115bc10784a6d498c1e7e56ff716989e45a69ad490bca6c4d462b49efda6bed"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.8.1/adr-lint-0.8.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e754a3873a78e7efbc72266c286ce9ada361c0f2dcef796e7a000200df7e8845"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.9.0/adr-lint-0.9.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9c0208dcc2f44f6d81aa877a870334807c2ded7520cd0d2e171df9b51037fa7b"
     end
     on_intel do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.8.1/adr-lint-0.8.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d6edc40bc9fd669206c2fc8185355291da38918c56a3234fe3f23415803430a9"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.9.0/adr-lint-0.9.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "57e518bdb35e1722685ec1fbdbd37d9a0e7da07a51f14139bd871026df789196"
     end
   end
 
