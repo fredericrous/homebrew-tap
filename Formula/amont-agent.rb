@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "3.9.0"
+  version "3.10.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.9.0/amont-agent-3.9.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d8a8629aa032dc1fb4d7b88b5cdb1938deb85292dc0ee78238ea20503848d243"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.10.0/amont-agent-3.10.0-aarch64-apple-darwin.tar.gz"
+      sha256 "bb3bbf814261acf516d3efffa6e6c9b72844b94a8338999afb832bb951746cc4"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.9.0/amont-agent-3.9.0-x86_64-apple-darwin.tar.gz"
-      sha256 "8bc951b0da6952ee951abefeb1f59ae6034d2eebc540cca5e01994aa34d06c87"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.10.0/amont-agent-3.10.0-x86_64-apple-darwin.tar.gz"
+      sha256 "c723eabaff909162dee07a59c05665b38c98dce9d9acfbf94f5a5030c4f4b562"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.9.0/amont-agent-3.9.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "29862782c8bdd1ce846d95e5e7921f380569ac84ea2cb870ef9b04f11de086ac"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.10.0/amont-agent-3.10.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0791abf7197dc362b0ad3bedb5008fc1bfbe02e92528d512ade5f0be0f2d9533"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.9.0/amont-agent-3.9.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2ea7389937aa38ad8fb2ae56b8d5ffb1e33bb9e81a17073d54ecdc6ef8ce276a"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.10.0/amont-agent-3.10.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "816be047de5fb2e0f340a49ae1c02d4734b5808c5a11a41af65915e706fedb03"
     end
   end
 
