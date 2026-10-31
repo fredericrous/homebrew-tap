@@ -1,28 +1,28 @@
 class AdrLint < Formula
   desc "Checks a tree against the decided code rules a linter matches exactly, and marks candidate lines for reviewers (ADR-0044)"
   homepage "https://github.com/fredericrous/adr-lint"
-  version "0.13.0"
+  version "0.14.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.13.0/adr-lint-0.13.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0ebc6860682e6e48bd7384457722e5d9c21686a6c17aee01fef8a5f2769fcad8"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.14.0/adr-lint-0.14.0-aarch64-apple-darwin.tar.gz"
+      sha256 "1c2a7da8f5742f534821bff6b2f3b3ed524c7e20a53de0cdffa11e5785fe3b0d"
     end
     on_intel do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.13.0/adr-lint-0.13.0-x86_64-apple-darwin.tar.gz"
-      sha256 "1524f42e16c4eeaebbddac018e4221cbdd13d7252c780531db61e7139ba42387"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.14.0/adr-lint-0.14.0-x86_64-apple-darwin.tar.gz"
+      sha256 "50dfbe4e4a649ccf4a93551a726ee33de10b148100e71d5018d1147edf13c961"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.13.0/adr-lint-0.13.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8d2f1a985b916963bfccfb12bdbca4b295b024c8055b64c83a5ebdda228cb37c"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.14.0/adr-lint-0.14.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "06b515079f5bff1e590568fe64dacb1dc562f79694569d642bb5e428aa718ddf"
     end
     on_intel do
-      url "https://github.com/fredericrous/adr-lint/releases/download/v0.13.0/adr-lint-0.13.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bd3a6c0e10e7be3ffb850f87c87b540d1848cf83ee787430b93744bf40033e1b"
+      url "https://github.com/fredericrous/adr-lint/releases/download/v0.14.0/adr-lint-0.14.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5a60de86017b7f265a0fd48319877947b205e303c032db7f437086a2145330cb"
     end
   end
 
