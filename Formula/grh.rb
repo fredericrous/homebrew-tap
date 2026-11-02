@@ -8,26 +8,26 @@
 class Grh < Formula
   desc "Install, audit and remove the Green Harness parts"
   homepage "https://github.com/greenharness/grh"
-  version "0.1.6"
+  version "0.1.7"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/greenharness/grh/releases/download/v0.1.6/grh-0.1.6-aarch64-apple-darwin.tar.gz"
-      sha256 "e0d1edf3e5c878487ef201c40737768e54bada84fe520639b13ca93900e2b716"
+      url "https://github.com/greenharness/grh/releases/download/v0.1.7/grh-0.1.7-aarch64-apple-darwin.tar.gz"
+      sha256 "4a8cdc18097f762d172b209ae291c19defaebd9660e5d99ce3a82f0902c737a4"
     else
-      url "https://github.com/greenharness/grh/releases/download/v0.1.6/grh-0.1.6-x86_64-apple-darwin.tar.gz"
-      sha256 "671ef28b18b5ab7543bff902d1dab489be8c2cd25dfde29053eb4e0622e36631"
+      url "https://github.com/greenharness/grh/releases/download/v0.1.7/grh-0.1.7-x86_64-apple-darwin.tar.gz"
+      sha256 "f24ebf370c111f9a5a4152f16e2b07694ed8d6a09074b6921f6e18d01c38414f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/greenharness/grh/releases/download/v0.1.6/grh-0.1.6-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2331e0f59dae45c60c3936687549e23bd370d0ad5f8badb1bee22a4230a4b781"
+      url "https://github.com/greenharness/grh/releases/download/v0.1.7/grh-0.1.7-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "240584379698362492e793b4c4f4dd22bc566f667a1175f2b22a39b7012055e4"
     else
-      url "https://github.com/greenharness/grh/releases/download/v0.1.6/grh-0.1.6-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "37480f6a0c9edf5e5951e373407eb782ab08bfa1656523bd595f151441298d45"
+      url "https://github.com/greenharness/grh/releases/download/v0.1.7/grh-0.1.7-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ed5b58a56470c3bb666f8b9f3b218332a928fd8bb6309763a0e9c014f7e9de50"
     end
   end
 
