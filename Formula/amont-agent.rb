@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/fredericrous/amont-agent"
-  version "3.16.1"
+  version "3.17.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.16.1/amont-agent-3.16.1-aarch64-apple-darwin.tar.gz"
-      sha256 "6f7b778649a09c61cbd60ea31cc7cddc779cac98c632823f696e9d4cb65128d8"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.17.0/amont-agent-3.17.0-aarch64-apple-darwin.tar.gz"
+      sha256 "c9ee6efc114295751a46ece744f099e9a5f9886365011449a0561da33ebb342a"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.16.1/amont-agent-3.16.1-x86_64-apple-darwin.tar.gz"
-      sha256 "8d84c380da01bdbaeb00dcf1932c6d2fb60f6b3219c70ec21a66a9529c1bfaf7"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.17.0/amont-agent-3.17.0-x86_64-apple-darwin.tar.gz"
+      sha256 "207aec5fe4c46b5fdd087f3194aa1ff9eb753847bcb20e9af30245ec8222062a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.16.1/amont-agent-3.16.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "db7aec98e2ccdd136bac2112245b06fd3cfedd50559275455ea449aa9afc9811"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.17.0/amont-agent-3.17.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f2a36a3aed8f54df5f8401b7d92e960bb7987a5624f67727ebc04469ca5ebbe4"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.16.1/amont-agent-3.16.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b56202b98ade4b0f7af3d3f92de721f194058a72a0183de899d0c5ec21983127"
+      url "https://github.com/fredericrous/amont-agent/releases/download/v3.17.0/amont-agent-3.17.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "372bd49cba5b06815a2fc79d63158dbddda618c6c5b195c64f13406b4bce2719"
     end
   end
 
@@ -39,7 +39,7 @@ class AmontAgent < Formula
   # Written by amont-agent's scripts/bump-tap.py from the released binary's
   # `amont-agent rules --json`; never edit by hand.
   def refusing_by_default
-    %w[ask-unopened-page pipe-to-tail plan-phases-open plan-review-panel workspace-root-write]
+    %w[ask-unopened-page pipe-to-tail plan-phases-open plan-review-panel suppressions-override workspace-root-write]
   end
 
   def caveats
