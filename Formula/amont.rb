@@ -6,27 +6,27 @@
 # nobody. The sha256 values below are the ones published in SHA256SUMS.
 class Amont < Formula
   desc "Git hooks that catch the bad commit before it exists — en amont"
-  homepage "https://github.com/fredericrous/amont"
-  version "2.3.0"
+  homepage "https://github.com/greenharness/greengate"
+  version "2.3.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fredericrous/amont/releases/download/v2.3.0/amont-2.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6bd2c324fd3712284361cf7b7f217a73f10f99161b9f372593d384ee5c3dd943"
+      url "https://github.com/greenharness/greengate/releases/download/v2.3.1/amont-2.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "fd0abfa930a965153ff450fc82602ca3f909b2d1933289d62a204af8d721c3cc"
     else
-      url "https://github.com/fredericrous/amont/releases/download/v2.3.0/amont-2.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "5823f8d2fca557506ae5a75f2047cdfbc2284db7abbd78bb00984cbe7fe39771"
+      url "https://github.com/greenharness/greengate/releases/download/v2.3.1/amont-2.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "e59b4d02be2601a08d808d6be73e2ba10d2f92bb48739fd83150332a66c98461"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/fredericrous/amont/releases/download/v2.3.0/amont-2.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1d770835d3d9990f07e8cce77f77f2b3d289711e415b0dda7a6d9716fc194fae"
+      url "https://github.com/greenharness/greengate/releases/download/v2.3.1/amont-2.3.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7b4c7a2982e6ea3aaa44a1e1ec90c1a0f2a8b92737ab35048017c7b0161cc726"
     else
-      url "https://github.com/fredericrous/amont/releases/download/v2.3.0/amont-2.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5dd017238e86672480bf43c7265977c3d17ec8e7bb1c77d9a9a8b0d9f5456a40"
+      url "https://github.com/greenharness/greengate/releases/download/v2.3.1/amont-2.3.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1c93464178819e192a40706d0ab853f054c05523bac44e2707be2cd48594c37e"
     end
   end
 
