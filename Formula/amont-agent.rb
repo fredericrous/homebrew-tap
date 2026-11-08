@@ -6,29 +6,29 @@
 # Change the shape here and the script will refuse rather than guess.
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
-  homepage "https://github.com/fredericrous/amont-agent"
-  version "3.23.0"
+  homepage "https://github.com/greenharness/greenpiste"
+  version "3.23.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.23.0/amont-agent-3.23.0-aarch64-apple-darwin.tar.gz"
-      sha256 "42e406c36609a4ab4496f0a8836e9ddd327c241b53d92a62377be7549ad589ab"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.23.1/amont-agent-3.23.1-aarch64-apple-darwin.tar.gz"
+      sha256 "3a5d3870fca20ba1ed4514bf1dc116c2e4a66a483359b6ed1b70c0b868695224"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.23.0/amont-agent-3.23.0-x86_64-apple-darwin.tar.gz"
-      sha256 "18d52654d300d4d731bb745a156d53dd05d8d0ad253c8c221ebfce0a84f795e9"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.23.1/amont-agent-3.23.1-x86_64-apple-darwin.tar.gz"
+      sha256 "cd37589483102e52c64bfd5dd3eb79d410a33cc9acf096349b30d22eb058b886"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.23.0/amont-agent-3.23.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "296c31de4da09040f730d09e8682411422714f77875b2e19fbdc11f26d5c8ed4"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.23.1/amont-agent-3.23.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "66fe403bb6644cadc6179077f52f26977e96167acf2a81f7c27dcaa7959d2e8d"
     end
     on_intel do
-      url "https://github.com/fredericrous/amont-agent/releases/download/v3.23.0/amont-agent-3.23.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "abc88fe94bb43093ac8a5107c2bb970b33ea88371f7814a7f41dabdbf948f4ba"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.23.1/amont-agent-3.23.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4e69a29c9e887103c00fecd3a5c931ab7c1897ab18e1083781e99a0820c68edf"
     end
   end
 
