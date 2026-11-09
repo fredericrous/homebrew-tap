@@ -39,10 +39,10 @@ class Grh < Formula
     <<~EOS
       grh installs nothing until you ask, and shows its plan first:
 
-        grh audit                  what fits this repository
-        grh install solo           gate and guardrails
-        grh install team --repo    + decisions and conform, and arm this repository
-        grh uninstall              take every part back out
+        grh audit                          what fits this repository
+        grh install greengate greenpiste   name the parts you want
+        grh install --all --repo           or every part, and arm this repository
+        grh uninstall                      take every part back out
     EOS
   end
 
