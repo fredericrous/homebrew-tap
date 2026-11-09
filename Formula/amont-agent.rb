@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/greenharness/greenpiste"
-  version "3.23.1"
+  version "3.24.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.23.1/amont-agent-3.23.1-aarch64-apple-darwin.tar.gz"
-      sha256 "3a5d3870fca20ba1ed4514bf1dc116c2e4a66a483359b6ed1b70c0b868695224"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.24.0/amont-agent-3.24.0-aarch64-apple-darwin.tar.gz"
+      sha256 "82a1d0a735afe3c9bbd24770d9e021d3992d97259d182e4c9ccaa98970eeffde"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.23.1/amont-agent-3.23.1-x86_64-apple-darwin.tar.gz"
-      sha256 "cd37589483102e52c64bfd5dd3eb79d410a33cc9acf096349b30d22eb058b886"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.24.0/amont-agent-3.24.0-x86_64-apple-darwin.tar.gz"
+      sha256 "468e9d9d87d55a4f93904f8da5725013cc75be75ca41e639921c2cc5feacdc42"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.23.1/amont-agent-3.23.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "66fe403bb6644cadc6179077f52f26977e96167acf2a81f7c27dcaa7959d2e8d"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.24.0/amont-agent-3.24.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3f67aa41c0a980f9cf286d82e2b11e5517372f8fea50c3e900a914c7c7d3dda0"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.23.1/amont-agent-3.23.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4e69a29c9e887103c00fecd3a5c931ab7c1897ab18e1083781e99a0820c68edf"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.24.0/amont-agent-3.24.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "50739679e92c037e068c8a5e851d8ae9ccc99197ba5859088b12a0070fbee57a"
     end
   end
 
