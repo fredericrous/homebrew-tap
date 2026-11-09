@@ -40,8 +40,9 @@ class Grh < Formula
       grh installs nothing until you ask, and shows its plan first:
 
         grh audit                          what fits this repository
-        grh install greengate greenpiste   name the parts you want
-        grh install --all --repo           or every part, and arm this repository
+        grh install                        pick the parts in a checklist
+        grh install greengate greenpiste   or name them
+        grh install --all --repo           or every part but the experiments
         grh uninstall                      take every part back out
     EOS
   end
