@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/greenharness/greenpiste"
-  version "3.26.0"
+  version "3.27.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.26.0/amont-agent-3.26.0-aarch64-apple-darwin.tar.gz"
-      sha256 "3d6442eda82af6f48a266e09680224b0651bc1db7f12c23888ac4f4266df1626"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.27.0/amont-agent-3.27.0-aarch64-apple-darwin.tar.gz"
+      sha256 "8ad6334b790ba53da073fc2f2ca4ac3e497c142183a393ee850ed831ec2b6914"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.26.0/amont-agent-3.26.0-x86_64-apple-darwin.tar.gz"
-      sha256 "4cbb5f95dbc1c305a1348be7944436fe09db5cfc1060cec30451b6d3fb7057ff"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.27.0/amont-agent-3.27.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d9dd43c18798ca26320ff668d1a3c659cdb18d33e9d53dd1dc94ca3df61f1cea"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.26.0/amont-agent-3.26.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "29ca77aa9592940ae9a7fe812ccb2a38dce6940151e77b5dab5ef3b733c8439e"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.27.0/amont-agent-3.27.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "da19a990f187f2318fff37b18573cd5f43196f93abc2a5bb3454ceb3aacdc252"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.26.0/amont-agent-3.26.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ca86cf30ad8fa5428255dcf7d2762e09fc2090b2bac9bcce56d78d5d42d84609"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.27.0/amont-agent-3.27.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "79d8e0fc43a3366973feb426c5e4ee30b8bf0177d108e1bdd9c904d6ace4d43a"
     end
   end
 
