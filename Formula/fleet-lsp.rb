@@ -6,26 +6,26 @@
 class FleetLsp < Formula
   desc "Pinned, ready language servers for Claude Code's LSP tool"
   homepage "https://github.com/fredericrous/fleet-lsp"
-  version "0.6.0"
+  version "0.6.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fredericrous/fleet-lsp/releases/download/v0.6.0/fleet-lsp-0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d01ae56c3ebaefa7ae975e290482d249b88ea4e5d8dd4b7b6d7bb8a5ecead004"
+      url "https://github.com/fredericrous/fleet-lsp/releases/download/v0.6.1/fleet-lsp-0.6.1-aarch64-apple-darwin.tar.gz"
+      sha256 "950c704b073a91818bd947e2238d63094aa8279acb4500a349d0e2805f83487b"
     else
-      url "https://github.com/fredericrous/fleet-lsp/releases/download/v0.6.0/fleet-lsp-0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "510b63503786906e07aeb91a9793c997ea038c89b7de6739601c077f5d222f9b"
+      url "https://github.com/fredericrous/fleet-lsp/releases/download/v0.6.1/fleet-lsp-0.6.1-x86_64-apple-darwin.tar.gz"
+      sha256 "aa4181a9ac92f8eac37d7219dce6ddf2383119b67b2e6269e61d5f1fa7ae842a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/fredericrous/fleet-lsp/releases/download/v0.6.0/fleet-lsp-0.6.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "642bae906a11868032f8e9c8818dfbed7cd098b2a7404ef06e9434d46ba1355b"
+      url "https://github.com/fredericrous/fleet-lsp/releases/download/v0.6.1/fleet-lsp-0.6.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6eb3266568ac5389711a6da5d5f16319a9c213e136d2842b052a33bd2c7e53aa"
     else
-      url "https://github.com/fredericrous/fleet-lsp/releases/download/v0.6.0/fleet-lsp-0.6.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "939034db5dc9727c3b7004b00875b03560f61a8e3a3b04122322e91ed6dc07eb"
+      url "https://github.com/fredericrous/fleet-lsp/releases/download/v0.6.1/fleet-lsp-0.6.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cbcc5a1a6f229aa0359ca779b697c5bb6b5fb57f815dce857fa8530eabafca13"
     end
   end
 
