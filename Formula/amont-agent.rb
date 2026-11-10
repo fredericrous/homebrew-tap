@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/greenharness/greenpiste"
-  version "3.27.0"
+  version "3.28.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.27.0/amont-agent-3.27.0-aarch64-apple-darwin.tar.gz"
-      sha256 "8ad6334b790ba53da073fc2f2ca4ac3e497c142183a393ee850ed831ec2b6914"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.28.0/amont-agent-3.28.0-aarch64-apple-darwin.tar.gz"
+      sha256 "28661528f21b456018d9c4e6c30f06f1ec34ad9e37f69e5f6ad2884ac8ebfab5"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.27.0/amont-agent-3.27.0-x86_64-apple-darwin.tar.gz"
-      sha256 "d9dd43c18798ca26320ff668d1a3c659cdb18d33e9d53dd1dc94ca3df61f1cea"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.28.0/amont-agent-3.28.0-x86_64-apple-darwin.tar.gz"
+      sha256 "c1be74caa1aae5a5043f5a7d122660ec77e6c647713e6456d00f90f414bf17a3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.27.0/amont-agent-3.27.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "da19a990f187f2318fff37b18573cd5f43196f93abc2a5bb3454ceb3aacdc252"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.28.0/amont-agent-3.28.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "420a6ee54cefd2fa3150cc0e206a2448f8368178e4a3f0dc3c53d08f4fbfa2b7"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.27.0/amont-agent-3.27.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "79d8e0fc43a3366973feb426c5e4ee30b8bf0177d108e1bdd9c904d6ace4d43a"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.28.0/amont-agent-3.28.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ce04f4ba06bdd679b1acee9c3bcd077ba7999dd1508b60835af75cc879a30bb4"
     end
   end
 
