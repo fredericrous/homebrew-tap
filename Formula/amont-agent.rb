@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/greenharness/greenpiste"
-  version "3.29.0"
+  version "3.30.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.29.0/amont-agent-3.29.0-aarch64-apple-darwin.tar.gz"
-      sha256 "52068dcafb0660a797cdd87c33299f78f60a69fd9431c681dd8a1ba9c07c27a5"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.30.0/amont-agent-3.30.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ff8555c5271f10172672c3070c7c54530c8ad66194e3fe5bbc4997a74e9d2eb1"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.29.0/amont-agent-3.29.0-x86_64-apple-darwin.tar.gz"
-      sha256 "0b448e47d9f0e10a5f7a0fede66cb202cec444eec6ef6586b7ce8370ace2c022"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.30.0/amont-agent-3.30.0-x86_64-apple-darwin.tar.gz"
+      sha256 "bc6441f7077a3b11d3b792e15913726bff46c4e4072bbc3fb7b8743ec92eeb02"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.29.0/amont-agent-3.29.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "56ff4fab5bb4dc22c2431554136494a2e07083dad64e53d3eed9697114695e4e"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.30.0/amont-agent-3.30.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b15a74818eec23f6905827ba383226feb0892715d8699333defd5810fe5055ea"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.29.0/amont-agent-3.29.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ae08aa04ff74a683f22f1aefd1b795bd2e881f1cd7189c1f8c2eb4865c42c576"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.30.0/amont-agent-3.30.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7336af45ce60eeb25551cb8fea1a56805e277c87d49f45c88bd8a58d8b67f1e1"
     end
   end
 
