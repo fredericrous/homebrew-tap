@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/greenharness/greenpiste"
-  version "3.32.0"
+  version "3.33.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.32.0/amont-agent-3.32.0-aarch64-apple-darwin.tar.gz"
-      sha256 "7966a068b43650499d41e684cd50a9b21083a393db3aa18f37a7f3128b2c2a27"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.33.0/amont-agent-3.33.0-aarch64-apple-darwin.tar.gz"
+      sha256 "0c0c9229628fd587a2eaa1090f5628af18f837ad7ff13deda869170d456d34a9"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.32.0/amont-agent-3.32.0-x86_64-apple-darwin.tar.gz"
-      sha256 "7f7ec5299591dc1fc56bded3f6232cd5e4c6aaedf49e3bd939af1898213fcd19"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.33.0/amont-agent-3.33.0-x86_64-apple-darwin.tar.gz"
+      sha256 "3c9e6bde5c206ed94ada0b994e36c1fcf4062e0a0da5e3ef9bfbfac4e8ce55e8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.32.0/amont-agent-3.32.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "184c90b22f99de7ac1926f9ce7e771601baf927488d789c2fa5ee97a7f6d99fe"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.33.0/amont-agent-3.33.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f86ff1e43f5d9023d9743e7cb0bb27e25438bf4c90b3e6e0d5372307e575405c"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.32.0/amont-agent-3.32.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "92dcc54d17a268fd64a6b43a9aab6eee4db437eae1ba9c5400bd42d2404b4c19"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.33.0/amont-agent-3.33.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "34a35fc6bded29876fa73b33020ad2f466a335cac69e81123e63c36490f588a2"
     end
   end
 
