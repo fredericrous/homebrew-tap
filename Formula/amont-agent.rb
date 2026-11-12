@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/greenharness/greenpiste"
-  version "3.31.0"
+  version "3.32.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.31.0/amont-agent-3.31.0-aarch64-apple-darwin.tar.gz"
-      sha256 "803b4b0d85dc4a789ceb082d16fdaaebfca5fd61db0f0598c3d622c4ab0340ed"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.32.0/amont-agent-3.32.0-aarch64-apple-darwin.tar.gz"
+      sha256 "7966a068b43650499d41e684cd50a9b21083a393db3aa18f37a7f3128b2c2a27"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.31.0/amont-agent-3.31.0-x86_64-apple-darwin.tar.gz"
-      sha256 "30d5d779f7034d0f42266dada5e66934d38d12de7806fabe1a618d016aa68ca2"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.32.0/amont-agent-3.32.0-x86_64-apple-darwin.tar.gz"
+      sha256 "7f7ec5299591dc1fc56bded3f6232cd5e4c6aaedf49e3bd939af1898213fcd19"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.31.0/amont-agent-3.31.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e7ce9fcaf30ace56409e6582848a726e3a1ae43d65b3f74e993947e59cfb7e13"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.32.0/amont-agent-3.32.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "184c90b22f99de7ac1926f9ce7e771601baf927488d789c2fa5ee97a7f6d99fe"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.31.0/amont-agent-3.31.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c660757e1befb58634b4ed882685ec1d31722852fd3a7418d0e0e189636d850e"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.32.0/amont-agent-3.32.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "92dcc54d17a268fd64a6b43a9aab6eee4db437eae1ba9c5400bd42d2404b4c19"
     end
   end
 
