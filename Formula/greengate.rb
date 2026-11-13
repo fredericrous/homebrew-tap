@@ -13,26 +13,26 @@
 class Greengate < Formula
   desc "Git hooks that catch the bad commit before it exists"
   homepage "https://github.com/greenharness/greengate"
-  version "4.2.0"
+  version "4.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/greenharness/greengate/releases/download/v4.2.0/greengate-4.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "cb428f98217380d1a145ff4e96423de8920950c21e356f97ff0b8e6a36b2c7b2"
+      url "https://github.com/greenharness/greengate/releases/download/v4.3.0/greengate-4.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "2a5942c1dd79ad48f32f0a09f39e2b1ee3991c76879327c58a3f8bfc79e310e2"
     else
-      url "https://github.com/greenharness/greengate/releases/download/v4.2.0/greengate-4.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "eff6b2eea67ec07a15e9d7a98388631a0f4b5f96b6e46af33e2609266c9db8a9"
+      url "https://github.com/greenharness/greengate/releases/download/v4.3.0/greengate-4.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d0e5d39fb8135eb6583178184522fc678936efd590999890740ed8dc843dc2f3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/greenharness/greengate/releases/download/v4.2.0/greengate-4.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a7ea5baba13c7453d3b9781f027df7b65aadc529b1e40242a629276e18344ab6"
+      url "https://github.com/greenharness/greengate/releases/download/v4.3.0/greengate-4.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7265d13c65b5db9abbc65a998a708566bba0a57faafd28822cc3576b6aeda62e"
     else
-      url "https://github.com/greenharness/greengate/releases/download/v4.2.0/greengate-4.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8efa96a2c2477ca09e42a576cb86bebf4f0cd0bd76ea41540b82d983c5c44de0"
+      url "https://github.com/greenharness/greengate/releases/download/v4.3.0/greengate-4.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "182d6b559f4227b05c8f9b016e58c8cac859f137185206f23ed7facc6053f2e3"
     end
   end
 
