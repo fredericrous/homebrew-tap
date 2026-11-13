@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/greenharness/greenpiste"
-  version "3.33.0"
+  version "3.34.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.33.0/amont-agent-3.33.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0c0c9229628fd587a2eaa1090f5628af18f837ad7ff13deda869170d456d34a9"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.34.0/amont-agent-3.34.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ebf5d38829910cdee06f59640c265b46219537bfae019f0b20f5e66d60b86aa7"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.33.0/amont-agent-3.33.0-x86_64-apple-darwin.tar.gz"
-      sha256 "3c9e6bde5c206ed94ada0b994e36c1fcf4062e0a0da5e3ef9bfbfac4e8ce55e8"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.34.0/amont-agent-3.34.0-x86_64-apple-darwin.tar.gz"
+      sha256 "546e2e546356c0ec97db886303152d01a94008726ac98a53ab3245ae7a0efee3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.33.0/amont-agent-3.33.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f86ff1e43f5d9023d9743e7cb0bb27e25438bf4c90b3e6e0d5372307e575405c"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.34.0/amont-agent-3.34.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0ccb083e28f15e1df56d787b54ceb0a0ed99d54855e8768ea184b49796d361f7"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.33.0/amont-agent-3.33.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "34a35fc6bded29876fa73b33020ad2f466a335cac69e81123e63c36490f588a2"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.34.0/amont-agent-3.34.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d86e259fc99eb2de06ab65ed90e6b586bde34cfedbc7f13f339cdcd028b10302"
     end
   end
 
