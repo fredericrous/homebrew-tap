@@ -7,28 +7,28 @@
 class AmontAgent < Formula
   desc "Guard that inspects a shell command before Claude Code runs it"
   homepage "https://github.com/greenharness/greenpiste"
-  version "3.34.0"
+  version "3.35.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.34.0/amont-agent-3.34.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ebf5d38829910cdee06f59640c265b46219537bfae019f0b20f5e66d60b86aa7"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.35.0/amont-agent-3.35.0-aarch64-apple-darwin.tar.gz"
+      sha256 "0649c0c402e33681d9f4c75dbad9d0a38f55b260f0a63bd9ac27a254b0bc914e"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.34.0/amont-agent-3.34.0-x86_64-apple-darwin.tar.gz"
-      sha256 "546e2e546356c0ec97db886303152d01a94008726ac98a53ab3245ae7a0efee3"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.35.0/amont-agent-3.35.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b51889566533620831e1c7ba0ab005bf1610cefad948c89979684bfe8a664a33"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.34.0/amont-agent-3.34.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0ccb083e28f15e1df56d787b54ceb0a0ed99d54855e8768ea184b49796d361f7"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.35.0/amont-agent-3.35.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1c48956d3bcbb760beafa8f347c66e6a65c180687c9d20fbf0057708730d4cff"
     end
     on_intel do
-      url "https://github.com/greenharness/greenpiste/releases/download/v3.34.0/amont-agent-3.34.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d86e259fc99eb2de06ab65ed90e6b586bde34cfedbc7f13f339cdcd028b10302"
+      url "https://github.com/greenharness/greenpiste/releases/download/v3.35.0/amont-agent-3.35.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5ccd3ea5e385b671f519001f02a4729ab7e57f511a32dc82870b2a2ee5668134"
     end
   end
 
