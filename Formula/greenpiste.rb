@@ -10,26 +10,26 @@
 class Greenpiste < Formula
   desc "A guard for Claude Code's tool calls"
   homepage "https://github.com/greenharness/greenpiste"
-  version "5.0.0"
+  version "5.0.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/greenharness/greenpiste/releases/download/v5.0.0/greenpiste-5.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ace3d759b9f7699f657b6a176b7439201bf75836fff2c08548edfe50dd20ad03"
+      url "https://github.com/greenharness/greenpiste/releases/download/v5.0.1/greenpiste-5.0.1-aarch64-apple-darwin.tar.gz"
+      sha256 "ea9b25696397012baeb91909a6545071008915a02887491b1936bfab662dc2b7"
     else
-      url "https://github.com/greenharness/greenpiste/releases/download/v5.0.0/greenpiste-5.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "59eacd4c17aa60c9ca8ee97a18a6bc415870369135717e15fc9d71ba67f3f181"
+      url "https://github.com/greenharness/greenpiste/releases/download/v5.0.1/greenpiste-5.0.1-x86_64-apple-darwin.tar.gz"
+      sha256 "419e0b19092e37d112054210266f1271db2df3a9dc6eebef549c314efee54c9a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/greenharness/greenpiste/releases/download/v5.0.0/greenpiste-5.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "16f0505db9a23b9dbc0892154692fef93120f6877e42bc3e2cd0e0241b797c98"
+      url "https://github.com/greenharness/greenpiste/releases/download/v5.0.1/greenpiste-5.0.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a6bc2cf281ef4fcd9b8101aa90459fa127e4665d32d55e48d9c7d7094cc507ce"
     else
-      url "https://github.com/greenharness/greenpiste/releases/download/v5.0.0/greenpiste-5.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a6aa7b969be43ca59f345e78c3b1b5b81fcb1e2641e59eae36fa077479d0cb75"
+      url "https://github.com/greenharness/greenpiste/releases/download/v5.0.1/greenpiste-5.0.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8a45b4ba358c563da165d3e122829d902fc0b5e5bb126fe1797e767707f4f209"
     end
   end
 
