@@ -17,20 +17,20 @@ class Greentopo < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/greenharness/greentopo/releases/download/v2.0.0/greentopo-2.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "30a3fae1eb59a5e5e94271950975bcabd4486d1585e5dd4621b24c6195e54013"
     else
       url "https://github.com/greenharness/greentopo/releases/download/v2.0.0/greentopo-2.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "912d9de53f9ce10c7342854e18fedb12d42419273052c81eef982191a6c67557"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/greenharness/greentopo/releases/download/v2.0.0/greentopo-2.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "6c62826f9f0a1c7db6b4f30c73cf6198cdca609b0323ae04d446aaaf2d7d5129"
     else
       url "https://github.com/greenharness/greentopo/releases/download/v2.0.0/greentopo-2.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "f1c39c749d46fd21e3c12c4aacb3153f59074eb701b3bdab370181bce25b2501"
     end
   end
 
