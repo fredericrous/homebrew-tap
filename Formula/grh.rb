@@ -41,7 +41,7 @@ class Grh < Formula
 
         grh audit                          what fits this repository
         grh install                        pick the parts in a checklist
-        grh install greengate greenpiste   or name them
+        grh install greengate greenbelay   or name them
         grh install --all --repo           or every part but the experiments
         grh uninstall                      take every part back out
     EOS
