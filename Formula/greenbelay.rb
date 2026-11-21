@@ -11,26 +11,26 @@
 class Greenbelay < Formula
   desc "A guard for Claude Code's tool calls"
   homepage "https://github.com/greenharness/greenbelay"
-  version "6.5.0"
+  version "6.6.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/greenharness/greenbelay/releases/download/v6.5.0/greenbelay-6.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b0b0b4523271783b8d2bc266233181c1d5a024c6f2fdcd0fb71c3a14862231eb"
+      url "https://github.com/greenharness/greenbelay/releases/download/v6.6.0/greenbelay-6.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "69ec352effb9dc7ed3bbe149d1069e03f984915d7a2357c590bd6d46e106fee0"
     else
-      url "https://github.com/greenharness/greenbelay/releases/download/v6.5.0/greenbelay-6.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "de10f1f50f7ae4464fd214732d78616ab26dc802b5068f76f4025800bd1c2323"
+      url "https://github.com/greenharness/greenbelay/releases/download/v6.6.0/greenbelay-6.6.0-x86_64-apple-darwin.tar.gz"
+      sha256 "ec9c1d2bf7d6ea4c3c5d607255aa7be41208c29e91ad2d5cb39d1f6c7be55d38"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/greenharness/greenbelay/releases/download/v6.5.0/greenbelay-6.5.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3962ea546ddce1d2120aaf08d24a4e307d0a0acb276bbb973a9d279e8fae2236"
+      url "https://github.com/greenharness/greenbelay/releases/download/v6.6.0/greenbelay-6.6.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "bf5e1cce5ff98ec285f463355ff42c7278728e8f7d76493f6093212b5a92164f"
     else
-      url "https://github.com/greenharness/greenbelay/releases/download/v6.5.0/greenbelay-6.5.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fd18ad90055dec8e24c917f7710f31159cae739e80b0d07d37d1a4f5b9237e32"
+      url "https://github.com/greenharness/greenbelay/releases/download/v6.6.0/greenbelay-6.6.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "86d1f36d2ae80857ba163c96994471f3c49a6ab2984c389d7f7df4866c4b2ea4"
     end
   end
 
