@@ -1,28 +1,28 @@
 class Greenspotter < Formula
   desc "Checks a tree against the decided code rules a linter matches exactly, and marks candidate lines for reviewers (ADR-0044)"
   homepage "https://github.com/greenharness/greenspotter"
-  version "0.19.0"
+  version "0.20.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/greenharness/greenspotter/releases/download/v0.19.0/greenspotter-0.19.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f93c6021a05b1203c17e7c5f984e5a4a64544af767511b87a843c07b5f962bcc"
+      url "https://github.com/greenharness/greenspotter/releases/download/v0.20.0/greenspotter-0.20.0-aarch64-apple-darwin.tar.gz"
+      sha256 "83619b8c0c695f8bfc991ce18f2591934e586ccd7d8accc27db0c5dc92417bb8"
     end
     on_intel do
-      url "https://github.com/greenharness/greenspotter/releases/download/v0.19.0/greenspotter-0.19.0-x86_64-apple-darwin.tar.gz"
-      sha256 "7b1aef3cf8e3e29499356d5a1614e7cc5cb47eaf31563eb5b340f9c9b2b354ab"
+      url "https://github.com/greenharness/greenspotter/releases/download/v0.20.0/greenspotter-0.20.0-x86_64-apple-darwin.tar.gz"
+      sha256 "61e4c1bd1a8d40737f6c8a6880a2b7521b4215168cc7422db346f157c4fe7aca"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/greenharness/greenspotter/releases/download/v0.19.0/greenspotter-0.19.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0403121bd640a6f09021091adf8bbc0d0d880f9a210c1515a9ad9a7e5627771e"
+      url "https://github.com/greenharness/greenspotter/releases/download/v0.20.0/greenspotter-0.20.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "76c5c5933e640fafd8f92bff2979a1a2ac87b3e6952c6d1abb89bae50dcbd289"
     end
     on_intel do
-      url "https://github.com/greenharness/greenspotter/releases/download/v0.19.0/greenspotter-0.19.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "18b917c2d6a3c0fc16740765ba14a09eb96bd821cc0e2efbc6e9e99a32bfc1e6"
+      url "https://github.com/greenharness/greenspotter/releases/download/v0.20.0/greenspotter-0.20.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f189d5a10fd7d94f2a08947d2292420417eecec490d15633e18d78a167becfc8"
     end
   end
 
