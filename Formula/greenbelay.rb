@@ -11,26 +11,26 @@
 class Greenbelay < Formula
   desc "A guard for Claude Code's tool calls"
   homepage "https://github.com/greenharness/greenbelay"
-  version "6.15.0"
+  version "6.16.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/greenharness/greenbelay/releases/download/v6.15.0/greenbelay-6.15.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2bd1e00a6b0739c211a9fd20b2e373e4272892e48d195f20b943c74f2f5b9706"
+      url "https://github.com/greenharness/greenbelay/releases/download/v6.16.0/greenbelay-6.16.0-aarch64-apple-darwin.tar.gz"
+      sha256 "8955ac0ec978f2df28603bea1f50d6af5045a66f12beb0ebc0777c401f267a4c"
     else
-      url "https://github.com/greenharness/greenbelay/releases/download/v6.15.0/greenbelay-6.15.0-x86_64-apple-darwin.tar.gz"
-      sha256 "f0a06f2a3f756df0dc7135940ec54a4ae830f7c0912d570e5b4db5f07849e860"
+      url "https://github.com/greenharness/greenbelay/releases/download/v6.16.0/greenbelay-6.16.0-x86_64-apple-darwin.tar.gz"
+      sha256 "1173b0cdb8bf789c71f59921a96bc67af043d2b1bf027d4084fa90d54102b56c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/greenharness/greenbelay/releases/download/v6.15.0/greenbelay-6.15.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0bf1816a5f74ab27aa38e6176846f7a9a3627f8ba64fd1f45e46f136f91dc19f"
+      url "https://github.com/greenharness/greenbelay/releases/download/v6.16.0/greenbelay-6.16.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "bba57427c6060aef4178b627cc60fe2bad56b0e2774ac7102af8cde69859ea1f"
     else
-      url "https://github.com/greenharness/greenbelay/releases/download/v6.15.0/greenbelay-6.15.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "260df7eaf1dbb04c94c4a627beef8072c459b0f0e636365ce3799bc1b51db12b"
+      url "https://github.com/greenharness/greenbelay/releases/download/v6.16.0/greenbelay-6.16.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fb7a0040ad0d38fbf0cec41f2f723fecf1ebf5af3dbc902757a9bf2fb97c067a"
     end
   end
 
@@ -39,7 +39,7 @@ class Greenbelay < Formula
   end
 
   def refusing_by_default
-    %w[ask-unopened-page block-reinstate pipe-to-tail plan-phases-open plan-review-panel suppressions-override workspace-root-write]
+    %w[ask-unopened-page block-reinstate pipe-to-tail pkill-option-after-pattern plan-phases-open plan-review-panel suppressions-override workspace-root-write]
   end
 
   def caveats
