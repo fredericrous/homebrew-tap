@@ -1,4 +1,6 @@
 {
   "amont": "greengate",
-  "greenpiste": "greenbelay"
+  "greenpiste": "greenbelay",
+  "aval": "greentopo",
+  "adr-lint": "greenspotter"
 }
