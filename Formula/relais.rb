@@ -1,7 +1,7 @@
 # Homebrew formula for relais.
 #
-# Prebuilt binaries rather than a source build, for the same reason aval's
-# and amont's formulae give: the release workflow already produces and
+# Prebuilt binaries rather than a source build, for the same reason greentopo's
+# and greengate's formulae give: the release workflow already produces and
 # checksums them, and compiling a Rust toolchain to arrive at identical bytes
 # helps nobody. The sha256 values below are the ones published in SHA256SUMS.
 #
