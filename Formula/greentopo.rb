@@ -11,26 +11,26 @@
 class Greentopo < Formula
   desc "The current architecture decision for a key, as a typed answer"
   homepage "https://github.com/greenharness/greentopo"
-  version "3.0.0"
+  version "3.0.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/greenharness/greentopo/releases/download/v3.0.0/greentopo-3.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "8d8124573bcdcb78554690add56df2648ab1c442a4c221ed99e2bfb42e310214"
+      url "https://github.com/greenharness/greentopo/releases/download/v3.0.1/greentopo-3.0.1-aarch64-apple-darwin.tar.gz"
+      sha256 "4e594b6d852eab2df4f94b18fceafbc33486bdab6ee71e90f4a0118905591679"
     else
-      url "https://github.com/greenharness/greentopo/releases/download/v3.0.0/greentopo-3.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "92beb3a45b85530b3d53bf24ea15e34ab0c0c496c7d9a322eccc0251352de308"
+      url "https://github.com/greenharness/greentopo/releases/download/v3.0.1/greentopo-3.0.1-x86_64-apple-darwin.tar.gz"
+      sha256 "0d1f860a6d9ec69790851e90a529ec839e8e334e0f1b8e5fdc202843e947fc11"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/greenharness/greentopo/releases/download/v3.0.0/greentopo-3.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ef853de429b91fe909830becdd12dfba10a884bd81192280847e5c9793bf18e8"
+      url "https://github.com/greenharness/greentopo/releases/download/v3.0.1/greentopo-3.0.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a79b22c0478102381b31aa3d5a5c0f9625f3f3bcd602e93932468b11afe2b610"
     else
-      url "https://github.com/greenharness/greentopo/releases/download/v3.0.0/greentopo-3.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "65d852abd30d2243ef6316d161aeb4a2854ced6684d6e574f5024c2a5fb5bcc0"
+      url "https://github.com/greenharness/greentopo/releases/download/v3.0.1/greentopo-3.0.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "736b05a1ce96e0def504e6643fa9aaebfb700daf39f09b6139debd7059a9fc7d"
     end
   end
 
